@@ -1,2 +1,1 @@
-# portfolio
-👨🏾‍💻 My personal Portfolio website!
+# 👨🏾‍💻 portfolio
