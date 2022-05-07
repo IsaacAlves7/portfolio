@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="checkbox" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EAEBEF;}
+	.st1{fill:#F01F7A;}
+</style>
+<circle id="box" class="st0" cx="12" cy="12" r="12"/>
+<polygon id="check" class="st1" points="18,8.6 10,17 6,12.8 7.5,11.2 10,13.8 16.5,7 "/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="162px" height="163px" viewBox="0 0 162 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-24.1%" y="-45.2%" width="148.1%" height="190.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="9.94419643" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="HomePage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DistroLandingV4" transform="translate(-638.000000, -3260.000000)">
+            <g id="Group-Copy-9" transform="translate(655.000000, 3260.000000)">
+                <polygon id="Rectangle-Copy-17" fill="#066DA5" filter="url(#filter-1)" points="64.745933 141 2 108 63.254067 75 126 108"></polygon>
+                <polygon id="Rectangle-2-Copy-5" fill="#2496ED" points="0 35 63 69.2857143 63 131 0 96.7142857"></polygon>
+                <polygon id="Rectangle-2-Copy-6" fill="#066DA5" points="63 69.2857143 126 35 126 96.7142857 63 131"></polygon>
+                <polygon id="Rectangle-2-Copy-7" fill="#6BC3F3" points="63 68.9511719 126 34.9472656 63.0820313 0.447265625 0 34.9472656"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
