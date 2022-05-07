@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" class="dicon" viewBox="0 0 158 155" style="width: 158px; height: 155px;">
+    <svg>
+        <g filter="url(#filter0_f)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M79.6441 128.792L26.3052 100.547L78.3759 72.3022L131.715 100.547L79.6441 128.792Z" fill="#B7BBBE" fill-opacity="0.52"></path>
+        </g>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5576 30.3711L78.136 60.1137V113.651L24.5576 83.9079V30.3711Z" fill="#FBFBFB"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M78.1362 60.1137L131.715 30.3711V83.9079L78.1362 113.651V60.1137Z" fill="#E7E8E9"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M78.136 60.0723L131.714 30.3712L78.2058 0.670166L24.5576 30.3712L78.136 60.0723Z" fill="#FAFAFB"></path>
+        <defs>
+           <filter id="filter0_f" x="0.570995" y="46.5681" width="156.878" height="107.959" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+               <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+               <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+               <feGaussianBlur stdDeviation="12.8671" result="effect1_foregroundBlur"></feGaussianBlur>
+           </filter>
+        </defs>
+    </svg>
+</svg>

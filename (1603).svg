@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="511.038" height="372.173" viewBox="0 0 511.038 372.173">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c80ff"/>
+      <stop offset="0.541" stop-color="#ecebf2"/>
+      <stop offset="0.973" stop-color="#8c80ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7566b2"/>
+      <stop offset="1" stop-color="#5c3eb3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.944" y1="0.471" x2="0.061" y2="0.53" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5c3eb3"/>
+      <stop offset="1" stop-color="#251b4c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.585" y1="0.541" x2="-0.268" y2="-0.019" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5c3eb3"/>
+      <stop offset="0.058" stop-color="#5539a6"/>
+      <stop offset="0.229" stop-color="#432e85"/>
+      <stop offset="0.406" stop-color="#36256c"/>
+      <stop offset="0.589" stop-color="#2c1f5a"/>
+      <stop offset="0.781" stop-color="#261c4f"/>
+      <stop offset="1" stop-color="#251b4c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.262" y1="0.376" x2="0.832" y2="0.258" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7566b2" stop-opacity="0"/>
+      <stop offset="0.084" stop-color="#796ab4" stop-opacity="0.02"/>
+      <stop offset="0.174" stop-color="#8578bb" stop-opacity="0.071"/>
+      <stop offset="0.267" stop-color="#9b90c6" stop-opacity="0.161"/>
+      <stop offset="0.362" stop-color="#b8b1d6" stop-opacity="0.286"/>
+      <stop offset="0.457" stop-color="#dedbea" stop-opacity="0.443"/>
+      <stop offset="0.488" stop-color="#ecebf2" stop-opacity="0.502"/>
+      <stop offset="0.568" stop-color="#cac2e3" stop-opacity="0.384"/>
+      <stop offset="0.7" stop-color="#9a89ce" stop-opacity="0.22"/>
+      <stop offset="0.82" stop-color="#7860bf" stop-opacity="0.098"/>
+      <stop offset="0.924" stop-color="#6346b6" stop-opacity="0.027"/>
+      <stop offset="1" stop-color="#5c3eb3" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-0.836" y1="3.06" x2="-0.141" y2="3.06" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="1.109" y1="0.031" x2="-0.071" y2="0.951" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ecebf2"/>
+      <stop offset="0.571" stop-color="#8c80ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.095" y1="0.262" x2="1.099" y2="0.841" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-9" x1="0.003" y1="-0.056" x2="1.213" y2="1.266" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-10" x1="0.306" y1="2.725" x2="1.156" y2="2.725" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="0.803" y1="0.028" x2="1.901" y2="0.028" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7566b2" stop-opacity="0"/>
+      <stop offset="0.084" stop-color="#796ab4" stop-opacity="0.02"/>
+      <stop offset="0.174" stop-color="#8578bb" stop-opacity="0.071"/>
+      <stop offset="0.267" stop-color="#9b90c6" stop-opacity="0.161"/>
+      <stop offset="0.362" stop-color="#b8b1d6" stop-opacity="0.286"/>
+      <stop offset="0.457" stop-color="#dedbea" stop-opacity="0.443"/>
+      <stop offset="0.488" stop-color="#ecebf2" stop-opacity="0.502"/>
+      <stop offset="0.568" stop-color="#cac2e3" stop-opacity="0.384"/>
+      <stop offset="0.7" stop-color="#9a89ce" stop-opacity="0.22"/>
+      <stop offset="0.82" stop-color="#7860bf" stop-opacity="0.098"/>
+      <stop offset="0.924" stop-color="#6346b6" stop-opacity="0.027"/>
+      <stop offset="1" stop-color="#5c3eb3" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-12" x1="1.109" y1="0.031" x2="-0.071" y2="0.951" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-15" x1="0.489" y1="0.616" x2="1.339" y2="0.616" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-16" x1="-0.27" y1="0.785" x2="0.828" y2="0.785" xlink:href="#linear-gradient-11"/>
+    <linearGradient id="linear-gradient-17" x1="-0.827" y1="1.358" x2="0.083" y2="1.358" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-24" x1="1.109" y1="0.031" x2="-0.071" y2="0.951" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-32" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient-11"/>
+    <linearGradient id="linear-gradient-34" x1="-0.27" y1="0.785" x2="1" y2="0.046" xlink:href="#linear-gradient-5"/>
+    <linearGradient id="linear-gradient-35" x1="-2.288" y1="2.84" x2="-1.438" y2="2.84" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-39" x1="-2.471" y1="4.95" x2="-1.622" y2="4.95" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_1281" data-name="Group 1281" transform="translate(-665.021 -229.929)">
+    <g id="Group_1269" data-name="Group 1269" transform="translate(830.915 362.091)">
+      <path id="Path_2385" data-name="Path 2385" d="M896.517,395.129a2.326,2.326,0,0,1-1.113-.284l-86.992-47.27a2.334,2.334,0,0,1,2.229-4.1l86.993,47.271a2.334,2.334,0,0,1-1.117,4.384Z" transform="translate(-807.191 -343.191)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Custom_block_chain_Development" data-name="Custom block chain Development" transform="translate(864.332 229.929)">
+      <path id="Path_2386" data-name="Path 2386" d="M883,344.968l52.1-29.81V254.5L882.48,285.349S883,344.578,883,344.968Z" transform="translate(-828.045 -225.828)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_2387" data-name="Path 2387" d="M890,229.929,942.884,258.7l-52.62,30.846L835.83,260.775Z" transform="translate(-835.83 -229.929)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_2388" data-name="Path 2388" d="M890.782,344.754l-54.791-31.721-.162-56.67,54.45,28.8Z" transform="translate(-835.83 -225.518)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <path id="Path_2389" data-name="Path 2389" d="M793.021,439.112,963.036,316.773l25.59,41.116L817.749,478.371Z" transform="translate(21.359 14.491)" fill="url(#linear-gradient-5)"/>
+    <g id="Group_1270" data-name="Group 1270" transform="translate(906.389 354.345)">
+      <path id="Path_2390" data-name="Path 2390" d="M874.208,393.458A2.334,2.334,0,0,1,873,389.124l86.8-52.236a2.333,2.333,0,1,1,2.407,4l-86.8,52.237A2.329,2.329,0,0,1,874.208,393.458Z" transform="translate(-871.872 -336.553)" fill="url(#linear-gradient-6)"/>
+    </g>
+    <g id="Custom_block_chain_Development-2" data-name="Custom block chain Development" transform="translate(890.251 379.762)">
+      <path id="Path_2391" data-name="Path 2391" d="M880.008,411.906l24.263-13.882V369.779l-24.5,14.364S880.008,411.724,880.008,411.906Z" transform="translate(-854.418 -356.425)" fill="url(#linear-gradient-7)"/>
+      <path id="Path_2392" data-name="Path 2392" d="M883.271,358.335l24.624,13.4-24.5,14.364-25.349-13.4Z" transform="translate(-858.043 -358.335)" fill="url(#linear-gradient-8)"/>
+      <path id="Path_2393" data-name="Path 2393" d="M883.633,411.807l-25.515-14.772-.075-26.39,25.356,13.41Z" transform="translate(-858.043 -356.281)" fill="url(#linear-gradient-9)"/>
+    </g>
+    <g id="Group_1271" data-name="Group 1271" transform="translate(823.764 302.109)">
+      <path id="Path_2394" data-name="Path 2394" d="M803.4,338.165a2.335,2.335,0,0,1-1.189-4.345l70.707-41.708a2.334,2.334,0,0,1,2.372,4.02l-70.706,41.71A2.33,2.33,0,0,1,803.4,338.165Z" transform="translate(-801.063 -291.787)" fill="url(#linear-gradient-10)"/>
+    </g>
+    <path id="Path_2395" data-name="Path 2395" d="M725.807,370.391l160.264-95.116,18.17,46.258L740.5,416.655Z" transform="translate(10.143 7.567)" fill="url(#linear-gradient-11)"/>
+    <g id="Custom_block_chain_Development-3" data-name="Custom block chain Development" transform="translate(795.512 327.923)">
+      <path id="Path_2396" data-name="Path 2396" d="M798.817,367.48,823.078,353.6V325.353l-24.5,14.364S798.817,367.3,798.817,367.48Z" transform="translate(-773.226 -312)" fill="url(#linear-gradient-12)"/>
+      <path id="Path_2397" data-name="Path 2397" d="M802.079,313.909l24.624,13.4-24.5,14.364-25.349-13.4Z" transform="translate(-776.851 -313.909)" fill="url(#linear-gradient-8)"/>
+      <path id="Path_2398" data-name="Path 2398" d="M802.441,367.381l-25.515-14.772-.075-26.39,25.356,13.41Z" transform="translate(-776.851 -311.855)" fill="url(#linear-gradient-9)"/>
+    </g>
+    <g id="Group_1272" data-name="Group 1272" transform="translate(730.813 357.324)">
+      <path id="Path_2399" data-name="Path 2399" d="M723.741,385.483a2.334,2.334,0,0,1-1.189-4.344L793.26,339.43a2.334,2.334,0,1,1,2.372,4.02l-70.707,41.71A2.324,2.324,0,0,1,723.741,385.483Z" transform="translate(-721.404 -339.106)" fill="url(#linear-gradient-15)"/>
+    </g>
+    <path id="Path_2431" data-name="Path 2431" d="M874.8,482.232l196.751-105.517,29.86,26.538L904.85,525.762Z" transform="translate(-141.262 -106.665)" fill="url(#linear-gradient-16)"/>
+    <g id="Group_1273" data-name="Group 1273" transform="translate(817.21 413.483)">
+      <path id="Path_2400" data-name="Path 2400" d="M797.783,444.386a2.334,2.334,0,0,1-1.3-4.271l78.107-52.484a2.333,2.333,0,1,1,2.6,3.874l-78.105,52.484A2.321,2.321,0,0,1,797.783,444.386Z" transform="translate(-795.446 -387.234)" fill="url(#linear-gradient-17)"/>
+    </g>
+    <g id="Custom_block_chain_Development-4" data-name="Custom block chain Development" transform="translate(665.021 354.163)">
+      <path id="Path_2401" data-name="Path 2401" d="M712.189,451.436l52.1-29.81V360.971l-52.62,30.846S712.189,451.047,712.189,451.436Z" transform="translate(-657.237 -332.296)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_2402" data-name="Path 2402" d="M719.2,336.4l52.879,28.772-52.62,30.846-54.434-28.772Z" transform="translate(-665.021 -336.397)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_2403" data-name="Path 2403" d="M719.974,451.222,665.183,419.5l-.162-56.67,54.45,28.8Z" transform="translate(-665.021 -331.986)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g id="Group_1274" data-name="Group 1274" transform="translate(748.29 435.181)">
+      <path id="Path_2404" data-name="Path 2404" d="M798.7,443.071a2.33,2.33,0,0,1-1.112-.282L737.6,410.214a2.333,2.333,0,1,1,2.226-4.1l59.983,32.574a2.333,2.333,0,0,1-1.116,4.384Z" transform="translate(-736.382 -405.829)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_1275" data-name="Group 1275" transform="translate(938.961 295.754)">
+      <path id="Path_2405" data-name="Path 2405" d="M962.1,323.582a2.313,2.313,0,0,1-1.111-.284l-59.983-32.573a2.334,2.334,0,1,1,2.228-4.1L963.217,319.2a2.334,2.334,0,0,1-1.116,4.386Z" transform="translate(-899.787 -286.34)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_1276" data-name="Group 1276" transform="translate(828.929 482.452)">
+      <path id="Path_2406" data-name="Path 2406" d="M867.8,483.582a2.317,2.317,0,0,1-1.111-.284l-59.982-32.573a2.333,2.333,0,1,1,2.226-4.1L868.919,479.2a2.334,2.334,0,0,1-1.116,4.386Z" transform="translate(-805.49 -446.34)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Custom_block_chain_Development-5" data-name="Custom block chain Development" transform="translate(789.255 451.263)">
+      <path id="Path_2407" data-name="Path 2407" d="M793.455,473.182,817.717,459.3V431.055l-24.5,14.364S793.455,473,793.455,473.182Z" transform="translate(-767.864 -417.702)" fill="url(#linear-gradient-24)"/>
+      <path id="Path_2408" data-name="Path 2408" d="M796.717,419.612l24.625,13.4-24.5,14.364-25.349-13.4Z" transform="translate(-771.49 -419.612)" fill="url(#linear-gradient-8)"/>
+      <path id="Path_2409" data-name="Path 2409" d="M797.08,473.083l-25.515-14.772-.075-26.39,25.356,13.41Z" transform="translate(-771.49 -417.557)" fill="url(#linear-gradient-9)"/>
+    </g>
+    <g id="Custom_block_chain_Development-6" data-name="Custom block chain Development" transform="translate(984.395 316.9)">
+      <path id="Path_2410" data-name="Path 2410" d="M960.689,358.033l24.263-13.881V315.906l-24.5,14.365S960.689,357.853,960.689,358.033Z" transform="translate(-935.099 -302.553)" fill="url(#linear-gradient-24)"/>
+      <path id="Path_2411" data-name="Path 2411" d="M963.952,304.463l24.624,13.4-24.5,14.364-25.349-13.4Z" transform="translate(-938.724 -304.463)" fill="url(#linear-gradient-8)"/>
+      <path id="Path_2412" data-name="Path 2412" d="M964.314,357.934,938.8,343.163l-.076-26.39,25.356,13.41Z" transform="translate(-938.724 -302.408)" fill="url(#linear-gradient-9)"/>
+    </g>
+    <g id="Group_1277" data-name="Group 1277" transform="translate(1022.081 344.314)">
+      <path id="Path_2413" data-name="Path 2413" d="M1033.334,365.2a2.317,2.317,0,0,1-1.111-.284l-59.982-32.573a2.334,2.334,0,1,1,2.226-4.1l59.982,32.574a2.334,2.334,0,0,1-1.116,4.385Z" transform="translate(-971.021 -327.957)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_1278" data-name="Group 1278" transform="translate(923.866 412.539)">
+      <path id="Path_2414" data-name="Path 2414" d="M967.735,435.285a2.322,2.322,0,0,1-1.141-.3l-78.552-44.192a2.334,2.334,0,0,1,2.287-4.069l78.553,44.192a2.334,2.334,0,0,1-1.147,4.369Z" transform="translate(-886.851 -386.425)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Path_2415" data-name="Path 2415" d="M920.346,280.511,1084.2,369.292l-30.388,39.326L888.17,316.857Z" transform="translate(37.236 8.44)" fill="url(#linear-gradient-32)"/>
+    <path id="Path_2416" data-name="Path 2416" d="M824.686,330.213l163.858,88.781L958.156,458.32l-165.645-91.76Z" transform="translate(23.856 13.257)" fill="url(#linear-gradient-32)"/>
+    <path id="Path_2417" data-name="Path 2417" d="M888.7,469.114,1048.964,374l18.17,46.258L903.4,515.378Z" transform="translate(37.324 24.04)" fill="url(#linear-gradient-34)"/>
+    <g id="Group_1279" data-name="Group 1279" transform="translate(926.25 471.726)">
+      <path id="Path_2418" data-name="Path 2418" d="M891.23,483.526a2.334,2.334,0,0,1-1.189-4.344l70.707-41.71a2.334,2.334,0,0,1,2.372,4.02L892.415,483.2A2.33,2.33,0,0,1,891.23,483.526Z" transform="translate(-888.893 -437.148)" fill="url(#linear-gradient-35)"/>
+    </g>
+    <g id="Custom_block_chain_Development-7" data-name="Custom block chain Development" transform="translate(1069.005 333.606)">
+      <path id="Path_2419" data-name="Path 2419" d="M1058.4,433.819l52.1-29.81V343.354l-52.62,30.846S1058.4,433.43,1058.4,433.819Z" transform="translate(-1003.45 -314.679)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_2420" data-name="Path 2420" d="M1065.409,318.78l52.879,28.772-52.62,30.846-54.434-28.772Z" transform="translate(-1011.234 -318.78)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_2421" data-name="Path 2421" d="M1066.187,433.605,1011.4,401.884l-.162-56.67,54.45,28.8Z" transform="translate(-1011.234 -314.369)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g id="Group_1280" data-name="Group 1280" transform="translate(1019.202 416.511)">
+      <path id="Path_2422" data-name="Path 2422" d="M970.889,436.207a2.334,2.334,0,0,1-1.188-4.344l70.706-41.71a2.334,2.334,0,1,1,2.372,4.021l-70.706,41.708A2.329,2.329,0,0,1,970.889,436.207Z" transform="translate(-968.553 -389.829)" fill="url(#linear-gradient-39)"/>
+    </g>
+    <path id="Path_2423" data-name="Path 2423" d="M751.155,394.723,915.012,483.5l-30.388,39.326L718.979,431.07Z" transform="translate(9.004 27.499)" fill="url(#linear-gradient-32)"/>
+    <g id="Custom_block_chain_Development-8" data-name="Custom block chain Development" transform="translate(986.778 442.921)">
+      <path id="Path_2424" data-name="Path 2424" d="M962.732,466.033l24.261-13.881V423.906l-24.5,14.365S962.732,465.853,962.732,466.033Z" transform="translate(-937.141 -410.553)" fill="url(#linear-gradient-12)"/>
+      <path id="Path_2425" data-name="Path 2425" d="M965.994,412.463l24.624,13.4-24.5,14.364-25.349-13.4Z" transform="translate(-940.766 -412.463)" fill="url(#linear-gradient-8)"/>
+      <path id="Path_2426" data-name="Path 2426" d="M966.356,465.934l-25.515-14.772-.076-26.39,25.356,13.41Z" transform="translate(-940.766 -410.409)" fill="url(#linear-gradient-9)"/>
+    </g>
+    <g id="Custom_block_chain_Development-9" data-name="Custom block chain Development" transform="translate(864.332 482.865)">
+      <path id="Path_2427" data-name="Path 2427" d="M883,561.734l52.1-29.81V471.269L882.48,502.115S883,561.344,883,561.734Z" transform="translate(-828.045 -442.594)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_2428" data-name="Path 2428" d="M890,446.695l52.879,28.772-52.62,30.846L835.83,477.541Z" transform="translate(-835.83 -446.695)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_2429" data-name="Path 2429" d="M890.782,561.52,835.992,529.8l-.162-56.67,54.45,28.8Z" transform="translate(-835.83 -442.283)" fill="url(#linear-gradient-4)"/>
+    </g>
+    <path id="Path_2430" data-name="Path 2430" d="M886.1,524.409,702.979,416.759l201-124.333L1101,401.267Z" transform="translate(6.334 10.429)" fill="none"/>
+  </g>
+</svg>
