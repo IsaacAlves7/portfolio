@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="915px" height="855px" viewBox="0 0 915 855" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>umbrella</title>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="umbrella">
+            <polygon id="Path" fill="#D11B63" fill-rule="nonzero" points="203 212.783283 328.830872 247.268419 442.677852 290 482 146.062042 335.571812 123.571736 307.334765 116"></polygon>
+            <polygon id="Path" fill="#C61E5C" fill-rule="nonzero" points="442 289.778802 538.22695 307.002304 654 341 619.41844 202.837558 496.12766 148.246544 481.468085 146"></polygon>
+            <polygon id="Path" fill="#C6C4C4" fill-rule="nonzero" points="471.497133 145 281 837 490 145"></polygon>
+            <line x1="472" y1="145" x2="464" y2="143" id="Path"></line>
+            <line x1="395" y1="130" x2="452" y2="189" id="Path" stroke="#C6C4C4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="418" y1="135" x2="456" y2="189" id="Path" stroke="#C6C4C4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="433" y1="135" x2="459" y2="189" id="Path" stroke="#C6C4C4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="456" y1="140" x2="463" y2="200" id="Path" stroke="#C6C4C4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="505" y1="150" x2="468" y2="189" id="Path" stroke="#C6C4C4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="514" y1="155" x2="477" y2="185" id="Path" stroke="#C6C4C4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="540" y1="167" x2="472" y2="195" id="Path" stroke="#C6C4C4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="560" y1="175" x2="467" y2="198" id="Path" stroke="#C6C4C4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></line>
+            <polyline id="Path" fill="#B7B7B7" fill-rule="nonzero" points="501 9.75 504.463158 0 513.747368 0 515 12 501 9.75"></polyline>
+            <polygon id="Path" fill="#C6C4C4" fill-rule="nonzero" points="514 0 530 6.08 527.371981 19 515.31401 12.16"></polygon>
+            <ellipse id="Oval" fill="#000000" fill-rule="nonzero" opacity="0.1" cx="447.5" cy="814.5" rx="299.5" ry="40.5"></ellipse>
+            <path d="M463.778848,143 L277.106755,837.428198 C277.106755,837.428198 276.357068,839.978485 278.831035,839.828468 C278.831035,839.828468 279.580723,841.17862 281.080097,836.303071 C282.579471,831.427522 473,144.575177 473,144.575177 L463.778848,143 Z" id="Path" fill="#B7B7B7" fill-rule="nonzero"></path>
+            <polygon id="Path" fill="#D11B63" fill-rule="nonzero" points="39.0577778 137 57.0844444 122.691358 0 81.2716049 113.417778 94.8271605 156.982222 76 169 79.7654321"></polygon>
+            <polygon id="Path" fill="#EF589C" fill-rule="nonzero" points="0 81.4237288 245.25 6 501 9.77118644 310.5 10.5254237 156.75 76.1440678 113.25 95"></polygon>
+            <polyline id="Path" fill="#F06AA8" fill-rule="nonzero" points="157 76.1189189 335.748954 124.205405 497.223849 149 516 50.572973 516 12.2540541 501.730126 10 310.964435 10.7513514 157 76.1189189"></polyline>
+            <polyline id="Path" fill="#C61E5C" fill-rule="nonzero" points="39 136.213483 147.760146 180.629213 202.515253 213 307 115.81236 168.762105 79 39 136.213483"></polyline>
+            <polygon id="Path" fill="#EF589C" fill-rule="nonzero" points="496 148.635015 634.222222 209.445104 807 265 702.582126 120.106825 514.780193 12 514.780193 50.2878338"></polygon>
+            <polygon id="Path" fill="#D11B63" fill-rule="nonzero" points="653.539249 341.459945 721.866894 341.459945 839 366 766.692833 251.779926 645.65529 212.831031 619 203"></polygon>
+            <polygon id="Path" fill="#C61E5C" fill-rule="nonzero" points="839.237202 366 839.237202 344.952694 915 344.952694 824.234668 300.760841 806.981754 264.808147 767 252"></polygon>
+            <polygon id="Path" fill="#F06AA8" fill-rule="nonzero" points="703 120 756.936396 155.25 915 345 824.35689 300.75"></polygon>
+        </g>
+    </g>
+</svg>
