@@ -1,0 +1,2237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1fc586">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../public/styles/css/style.css">
+    <!-- THEMES -->
+    <link rel="stylesheet" href="../../public/styles/css/themes/light.css">
+    <link rel="stylesheet" href="../../public/styles/css/themes/light.css">
+    <link rel="stylesheet" href="../../public/styles/sass/themes/light.scss">
+    <link rel="stylesheet" href="../../public/styles/sass/themes/dark.scss">
+    <!-- SASS -->
+    <link rel="stylesheet" href="../../public/styles/sass/style.scss">
+    <!-- LESS -->
+    <link rel="stylesheet" href="../../public/styles/less/style.less">
+    <!-- FONTAWESOME 5 PRO -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css"/>
+    <!-- BOOTSTRAP 5 ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <!-- MaterializeCSS ICONS-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../../public/images/icon/favicon.svg" type="image/svg">
+    <title>IsaacAlves7 (Isaac Alves Pinheiro)</title>
+</head>
+<body>
+<!-- LOADING START -->
+<section id="loading" class="neuromorphism-icon">
+    <svg height="77" viewBox="0 0 24 21" xmlns="http://www.w3.org/2000/svg" fill="#ccc"><path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/></svg>
+
+    <script type="text/javascript">
+        var i = setInterval(function () {
+
+         clearInterval(i);
+
+         // O código desejado é apenas isto:
+         document.getElementById("loading").style.display = "none";
+         document.getElementById("conteudo").style.display = "inline";
+
+        }, 1700);
+    </script>
+</section>
+<!-- LOADING END -->
+
+<!-- CONTENT ♚ START -->
+<div id="conteudo" style="display: none;">
+
+<!-- HEADER START -->
+ <header class="header">
+     <div class="container">
+         <div class="row justify-content-between">
+             <div class="logo">
+                 <a href="index.html" target="_self" class="link-item">
+                    <svg id="glow1" onmouseover="glow()" onmouseout="glowNone()" class="change-color" height="35" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                          <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                          <!-- <animate attributeType="XML" attributeName="fill" from="red" to="green" dur="3s" repeatCount="indefinite"/> -->
+                        </g>
+                    </svg>
+                    <script>
+                        glow = () => {
+                            document.getElementById("glow1").style.transition="0.7s";
+                            document.getElementById("glow1").style.filter="blur(21%)";
+                            document.getElementById("glow1").style.filter="drop-shadow(0 0 1px #23d6928a)";
+                            document.getElementById("glow1").style.filter="drop-shadow(0 0 21px #23d6928a)";
+                            document.getElementById("glow1").style.filter="drop-shadow(0 0 7px #23d6928a)";
+                        }
+
+                        glowNone = () => {
+                            document.getElementById("glow1").style.filter="none";
+                        }
+                     </script>
+                 </a>
+             </div>
+             <div class="hamburger-btn outer-shadow hover-in-shadow">
+                 <span></span>
+             </div>
+         </div>
+     </div>
+ </header>
+ <!-- HEADER END -->
+
+<!-- NAVIGATION MENU START -->
+<nav class="nav-menu">
+   <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
+   <div class="nav-menu-inner">
+       <ul>
+           <li><a href="#home" class="link-item inner-shadow active">Home</a></li>
+           <li><a href="#home" class="link-item inner-shadow active">Início</a></li>
+           <li><a href="#about" class="link-item outer-shadow hover-in-shadow">About</a></li>
+           <li><a href="#about" class="link-item outer-shadow hover-in-shadow">Sobre</a></li>
+           <li><a href="#services" class="link-item outer-shadow hover-in-shadow">Services</a></li>
+           <li><a href="#services" class="link-item outer-shadow hover-in-shadow">Serviços</a></li>
+           <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Portfolio</a></li>
+           <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow ">Testimonial</a></li>
+           <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
+           <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contato</a></li>
+       </ul>
+   </div>
+   <!-- copyright text start-->
+   <p class="copyright-text poppins">&copy; 2022 IsaacAlves7 <svg height="17" enable-background="0 0 49 49" viewBox="0 0 21 21" width="17" xmlns="http://www.w3.org/2000/svg">
+    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+</svg> Isaac Alves Pinheiro</p>
+</nav>
+<div class="fade-out-effect">
+
+</div>
+<!-- NAVIGATION MENU END -->
+
+<!------------ PART 1 --------------->
+
+<!------------ PART 2 --------------->
+
+<!-- HOME SECTION START -->
+<section class="home-section section active" id="home">
+    <!-- effect wrap start --> <!-- floating square effect -->
+    <div class="effect-wrap">
+        <div class="effect effect-1">
+        </div>
+        <div class="effect effect-2">
+        <!-- 28 divs for the effect -->
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="effect effect-3">
+        </div>
+        <div class="effect effect-4">
+        </div>
+        <div class="effect effect-5">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- effect wrap end -->
+    <div class="container">
+        <div class="row full-screen align-items-center">
+            <div class="home-text">
+                <p>Hello</p>
+                <p>Olá</p>
+                <h2>I'm&nbsp;<strong class="change">IsaacAlves<b class="poppins">7</b></strong></h2>
+                <h2>Eu sou&nbsp;<strong class="change">IsaacAlves<b class="poppins">7</b></strong></h2>
+                <h1>DevOps & Full-Stack Developer</h1>
+                <h1>DevOps & desenvolvedor Full-Stack</h1>
+                <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow" id="button-modal"></a>
+            </div>
+            <div class="home-img">
+                <div class="img-box inner-shadow">
+                    <!-- Imagem.png de dimensões iguais wxh == 500 || 700 -->
+                    <img src="../../public/images/isaac-fotos/Memoji/macbook.png" class="outer-shadow" alt="main.png" title="It's me!" style="cursor: pointer;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- HOME SECTION END -->
+
+<!----------- PART 2 ---------------->
+
+<!-- ABOUT SECTION START -->
+<section class="about-section section" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+              <h2 data-heading="main info">
+                 <svg height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                   <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                 </svg> About me <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg>
+              </h2>
+              <h2 data-heading="info inicial">
+                 <svg height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                   <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                 </svg> Sobre mim <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg>
+              </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-img">
+                <div class="img-box inner-shadow">
+                    <img src="https://avatars.githubusercontent.com/u/61624336?v=4" class="outer-shadow" alt="profile-pic.jpg" style="cursor: pointer;">
+                </div>
+                <!-- social-medias links start -->
+                <div class="social-links">
+                    <!-- <a class="outer-shadow hover-in-shadow" href="https://codepen.io/isaacalves7/" target="_blank" title="CodePen"><i class="fab fa-codepen"></i></a>
+                    <a class="outer-shadow hover-in-shadow" href="https://dribbble.com/IsaacAlves7" target="_blank" title="Dribbble"><i class="fab fa-dribbble"></i></i></a>
+                    <a class="outer-shadow hover-in-shadow" href="https://www.artstation.com/isaacalves7" target="_blank" title="Artstation"><i class="fab fa-artstation"></i></a> -->
+                    <!-- <a class="outer-shadow hover-in-shadow" href="https://www.youtube.com/channel/UCqmO8zdeHhhAKUlhv1LJXkA" target="_blank" title="YouTube Channel"><i class="fab fa-youtube"></i></a> -->
+                    <!-- <a class="outer-shadow hover-in-shadow" href="https://pt.stackoverflow.com/users/246322/isaacalves7" target="_blank" title="Stack Overflow"><i class="fab fa-stack-overflow"></i></a> -->
+                    <!-- <a class="outer-shadow hover-in-shadow" href="https://api.whatsapp.com/send?l=pt_BR&phone=5521998282787" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a> -->
+                    <!-- <a class="outer-shadow hover-in-shadow" href="#" target="_blank" title="Spotify"><i class="fab fa-spotify"></i></a> -->
+                    <a class="outer-shadow hover-in-shadow" href="https://www.linkedin.com/in/isaac-alves-pinheiro-012324198/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a class="outer-shadow hover-in-shadow" href="https://gitlab.com/IsaacAlves7" target="_blank" title="GitLab"><i class="fab fa-gitlab"></i></a>
+                    <a class="outer-shadow hover-in-shadow" href="https://hub.docker.com/u/isaacalves7" target="_blank" title="Docker Hub"><i class="fab fa-docker"></i></a>
+                </div>
+                <!-- social-medias links end -->
+            </div>
+
+
+<!-- ABOUT SECTION START -->
+            <div class="about-info">
+                <p><b class="poppins">Hello World! It's a great pleasure see you here, welcome to my portfolio website! My name is Isaac Alves Pinheiro and i'm a DevOps and Full-Stack Developer. I'm 21 years old and in the 5th period of Computer Science bachelor's degree.</b></p>
+                <p><b class="poppins">Olá! É um grande prazer vê-lo(la) aqui, bem-vindo ao meu site portfolio! Meu nome é Isaac Alves Pinheiro e sou um DevOps e desenvolvedor Full-Stack. Eu tenho 21 anos e no 5° período do bacharel de Ciência da Computação.</b></p>
+                <p class="poppins">About this Personal Site Portfolio, i created it to explain my work and for possible hires of my IT services and solutions. And about my work with DevOps & Agile methodologies, such as the MLOps implementation.</p>
+                <p class="poppins">Sobre meu site pessoal, eu criei para explicar meu trabalho e para possíveis contratos de meus serviços de TI e soluções. And about my work with DevOps & Agile methodologies, such as the MLOps implementation.</p>
+                <p class="poppins">Besides that, here is the best place to publish my works, studies, hobbies, skills, experiences, educations and others! Feel free to interact with my stories in this website.</p>
+                <p class="poppins">So, if you want to know more about me or hire me, just scroll-down the page and click in the button! Thanks for everything, may God bless you!</p>
+                <a href="../../public/docs/cv/ptbr-cv.pdf" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
+                <a href="#home" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+                <a href="#home" class="btn-1 outer-shadow hover-in-shadow">Mais sobre mim</a>
+                <a href="#contact" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                <a href="#contact" class="btn-1 outer-shadow hover-in-shadow">Contrate-me</a>
+            </div>
+        </div>
+        <!-- about tabs start -->
+        <div class="row">
+            <div class="about-tabs">
+                <span class="tab-item outer-shadow active" data-target=".skills">Skills</span>
+                <span class="tab-item outer-shadow active" data-target=".skills">Habilidades</span>
+                <span class="tab-item" data-target=".experience">Experience</span>
+                <span class="tab-item" data-target=".experience">Experiência</span>
+                <span class="tab-item" data-target=".education">Education</span>
+                <span class="tab-item" data-target=".education">Educação</span>
+            </div>
+        </div>
+        <!-- about tabs end -->
+
+        <!-- skills progress start -->
+        <div class="row">
+          <div class="skills tab-content active">
+            <div class="flex infinite-knowledge" title="Click to see my knowledge and skills level">
+
+                <div class="svgBox">
+                    <svg width="300px" height="200px" viewBox="0 0 187.3 93.7" >
+                        <defs>
+                            <linearGradient id="col">
+                                <stop offset="0%" stop-color="#d2305c"/>
+                                <stop offset="25%" stop-color="#ff5e00"/>
+                                <stop offset="50%" stop-color="#ffeb00"/>
+                                <stop offset="75%" stop-color="#1cff00"/>
+                                <stop offset="100%" stop-color="#00b9ff"/>
+                            </linearGradient>
+                        </defs>
+                        <path
+                          d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
+                        <path
+                          d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
+                    </svg>
+
+                    <svg width="300px" height="200px" viewBox="0 0 187.3 93.7" >
+                        <defs>
+                            <linearGradient id="col">
+                                <stop offset="0%" stop-color="#d2305c"/>
+                                <stop offset="25%" stop-color="#ff5e00"/>
+                                <stop offset="50%" stop-color="#ffeb00"/>
+                                <stop offset="75%" stop-color="#1cff00"/>
+                                <stop offset="100%" stop-color="#00b9ff"/>
+                            </linearGradient>
+                        </defs>
+                        <path
+                          d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
+                        <path
+                          d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
+                    </svg>
+
+                    <svg width="300px" height="200px" viewBox="0 0 187.3 93.7" >
+                        <defs>
+                            <linearGradient id="col">
+                                <stop offset="0%" stop-color="#d2305c"/>
+                                <stop offset="25%" stop-color="#ff5e00"/>
+                                <stop offset="50%" stop-color="#ffeb00"/>
+                                <stop offset="75%" stop-color="#1cff00"/>
+                                <stop offset="100%" stop-color="#00b9ff"/>
+                            </linearGradient>
+                        </defs>
+                        <path
+                          d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
+                        <path
+                          d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
+                    </svg>
+                </div>
+
+                <!-- <div class="row"><div class="skill-item"></div></div> -->
+            </div>
+          </div>
+        </div>
+        <!-- skills progress end -->
+
+        <!-- experience start -->
+        <div class="row">
+            <div class="experience tab-content">
+                <div class="row">
+                    <div class="timeline">
+                        <div class="row">
+
+                            <!-- (Actually) timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fa fa-building icon"></i>
+                                    <span class="poppins">Currently - March, 2022</span>
+                                    <span class="poppins">Atualmente - Março, 2022</span>
+                                    <h3><a href="https://www.headmind.com/pt/" target="_BLANK"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEy1FNaUiE1dw/company-logo_200_200/0/1641465970668?e=1652918400&v=beta&t=V7xy0vaXY4J1DG7EXTKAwh9f334wh6CEBaL0h1rAIxw" style='height: 70px;'></a> Java Intern @HeadMind Partners</h3>
+                                    <h3><a href="https://www.headmind.com/pt/" target="_BLANK"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEy1FNaUiE1dw/company-logo_200_200/0/1641465970668?e=1652918400&v=beta&t=V7xy0vaXY4J1DG7EXTKAwh9f334wh6CEBaL0h1rAIxw" style='height: 70px;'></a> Estagiário Java @HeadMind Partners</h3>
+                                    <i>Hybrid Work</i>
+                                    <i>Trabalho Híbrido</i>
+                                    <p align="left">Essa foi a minha segunda oportunidade de estágio, agora estou participando na área de Desenvolvimento de Software em uma empresa consultoria focada no ramo de desenvolvimento, IA - Inteligência Artificial e Cibersegurança.</p>
+                                    <p align="left">A <cite>HeadMind Partners</cite>, ex-Beijaflore, foi uma ótima oportunidade de aprendizado como Desenvolvedor Full-Stack focado em tecnologias Front-End e Back-End, como: React.js, RubyOnRails e Java.</p>
+                                    <p align="left">Nessa empresa aprendi mais sobre: React.js, Ruby, RubyOnRails, GitHub Actions, GitOps, AZ - Microsoft Azure, Cloud e Edge Computing (on-premises), Telco cloud, SDN / NFV, Redes de computadores, Sistemas distribuídos, metodologias ágeis com frameworks Scrum e Kanban, Kubernetes, Terraform, Ansible, Grafana, Linode, Nextcloud, Travis CI, Jenkins, HAProxy, Vagrant, Vault, New Relic, Swagger, ETL, pré-processador Sass, Arquitetura de Sistemas, Elixir, Scala, Clojure.</p>
+                                    <blockquote align="center"><strong>|</strong> Muito obrigado HeadMind Partners!</blockquote>
+                                </div>
+                            </div>
+                            <!-- (Actually) timeline item end -->
+
+                            <!-- timeline item start -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-briefcase icon"></i>
+                                    <span class="poppins">July, 2021 - January, 2022</span>
+                                    <h3><a href="https://ezops.cloud" target="_BLANK"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFafEgs76PYcw/company-logo_200_200/0/1625236240246?e=1652313600&v=beta&t=13k-vCColcF0u-gXHfoHlDpZiLasjlK70DROx_kHVhE" style='height: 70px;'></a> DevOps Intern @EZOps.cloud</h3>
+                                    <h3><a href="https://ezops.cloud" target="_BLANK"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFafEgs76PYcw/company-logo_200_200/0/1625236240246?e=1652313600&v=beta&t=13k-vCColcF0u-gXHfoHlDpZiLasjlK70DROx_kHVhE" style='height: 70px;'></a> Estagiário em DevOps @EZOps.cloud</h3>
+                                    <i>Remote Work (Home Office)</i>
+                                    <i>Trabalho Remoto (Home Office)</i>
+                                    <p align="left">Essa foi minha primeira oportunidade de trabalho na área de TI, estagiei na área de DevOps em uma empresa focada nesse ramo com o período de 6 meses.</p>
+                                    <p align="left">A <cite>EZOps.cloud</cite> foi uma ótima oportunidade de aprendizado na área de DevOps, com conceitos, teorias e práticas fundamentais para o meu crescimento profissional.</p>
+                                    <p align="left" class="links">Nessa empresa aprendi mais sobre: <a href="https://git-scm.com/" target="_blank">Git</a> e <a href="https://github.com" target="_blank">GitHub</a>, <a href="https://bitbucket.org" target="_blank">BitBucket</a>, <a href="https://uptimerobot.com" target="_blank">UptimeRobot</a>, <a href="https://vuejs.org/" target="_blank">Vue.js</a>, <a href="https://www.google.com/search?q=CI%2FCD&oq=CI%2FCD&aqs=chrome..69i57j69i58.2094j0j1&sourceid=chrome&ie=UTF-8" target="_blank">CI/CD</a> e a cultura <a href="https://pt.wikipedia.org/wiki/DevOps" target="_blank">DevOps</a>, <a href="https://pt.wikipedia.org/wiki/Rede_de_computadores" target="_blank">Redes de computadores</a>, <a href="https://pt.wikipedia.org/wiki/Sistema_Operacional_Distribu%C3%ADdo#:~:text=Um%20sistema%20distribu%C3%ADdo%20%C3%A9%20uma,possam%20manter%20uma%20comunica%C3%A7%C3%A3o%20eficiente." target="_blank">Sistemas distribuídos</a>, <a href="https://www.google.com/search?q=metodologias+%C3%A1geis&oq=metodologias+%C3%A1geis&aqs=chrome..69i57.5574j0j1&sourceid=chrome&ie=UTF-8" target="_blank">metodologias ágeis</a> com frameworks <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" target="_blank">Scrum</a> e <a href="https://pt.wikipedia.org/wiki/Kanban" target="_blank">Kanban</a>, <a href="https://www.docker.com/" target="_blank">Docker</a> e ferramentas para orquestração de containers, <a href="https://www.google.com/search?q=Linux&oq=Linux&aqs=chrome..69i57j69i61j69i65l3j69i61l2.1134j0j4&sourceid=chrome&ie=UTF-8" target="_blank">Linux</a>, <a href="https://www.nginx.com/" target="_blank">NGINX</a> e <a href="https://aws.amazon.com/pt/" target="_blank">AWS - Amazon Web Services</a>.</p>
+                                    <blockquote align="center"><strong>|</strong> Muito obrigado EZOps.cloud!</blockquote>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- experience end -->
+
+        <!-- education start -->
+        <div class="row">
+            <div class="education tab-content">
+                <div class="row">
+                    <div class="timeline">
+                        <div class="row">
+
+                            <!-- timeline item start - freeCodeCamp -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3>Certifications, by freeCodeCamp <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_200_200/0/1589990867649?e=1648080000&v=beta&t=kRgU-P2TxTvK0De5s9t720S3ACRoh5vpgsI-dDh8yPw" height="70"></h3>
+                                    <h4>freeCodeCamp</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - DataCamp -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQHoE9F6A76mOQ/company-logo_200_200/0/1603188329234?e=1648080000&v=beta&t=xx4dsiwaMBhuSbMyYsS9EPFObhb0fVK2OYJZ7_7KrXU" height="70"> Certifications, by Datacamp</h3>
+                                    <h4>Datacamp</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - Cisco Networking Academy -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3>Certifications, by Cisco Networking Academy <img src="https://media-exp1.licdn.com/dms/image/C560BAQH1e-s-hTeQ_w/company-logo_200_200/0/1634307374798?e=1648080000&v=beta&t=GE0hxg1ePevik3sJcxKs4Y2xz9UdSYhnNPpCntZ-7KE" height="70"></h3>
+                                    <h4>Cisco Networking Academy</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - DIO -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3> <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQE7bl7yBLL4ow/company-logo_200_200/0/1635801639007?e=1648080000&v=beta&t=ETuiAzIufQ1BV_ZDMqETqJ6TIgV2l4iYYepM662jFs0" height="70"> Certifications and Bootcamps, by DIO</h3>
+                                    <h4>Digital Innovation One</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p><br \>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - Fundação Bradesco -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3>Certifications, by Fundação Bradesco <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFOiaQvbDY3hQ/company-logo_200_200/0/1547486273811?e=1648080000&v=beta&t=aOpPJmfD1OjKjkErFDgp-FODU6-F06X4Sx2a0xAkd9M" height="70"></h3>
+                                    <h4>Fundação Bradesco</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - Node Studio -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQFvrqOwiIJ9xg/company-logo_200_200/0/1572893495976?e=1648080000&v=beta&t=AQDn3EBeIe0ldqw65DJzSo82vB975rQikzOhppDEmrU" height="70"> Certifications, by Node Studio</h3>
+                                    <h4>Node Studio Treinamentos</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - Hotmart -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3>Certifications, by Hotmart <img src="https://media-exp1.licdn.com/dms/image/C560BAQFZ720-IGxQkQ/company-logo_200_200/0/1620237292048?e=1648080000&v=beta&t=WUqFk1nbaMWD2aYZGABqmGPMXTmPkxyALiP8QYpULA4" height="70"></h3>
+                                    <h4>Hotmart</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - Alura -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQEHX7cfhFZv8w/company-logo_200_200/0/1638241687335?e=1648080000&v=beta&t=fJtJskLx7-nfhJTMQLLeA0GXvQeS8G_TWIAEvMr2lc8" height="70"> Certifications, by Alura</h3>
+                                    <h4>Alura</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - Udemy -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2019 - 2023</span>
+                                    <h3>Certifications, by Udemy <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_200_200/0/1626275253364?e=1648080000&v=beta&t=eyNakCT_-jsUjbSJsYXl68df-gNbSR69f9i5lZSNOYY" height="70"></h3>
+                                    <h4>Udemy</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - AWS -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-award icon"></i>
+                                    <span class="poppins">2021 - 2023</span>
+                                    <h3><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQGG0RJJ7j74xA/company-logo_200_200/0/1639413583373?e=1648080000&v=beta&t=8b4ZEFqlH-uGp_L8lIjJJoXBu6AvryjI8QA8SSoCj1M" height="70"> Certifications, by AWS</h3>
+                                    <h4>Amazon Web Services (AWS)</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
+
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+
+                            <!-- timeline item start - UNESA -->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner outer-shadow">
+                                    <i class="fas fa-graduation-cap icon" title="Graduation"></i>
+                                    <span class="poppins">2020 - 2023</span>
+                                    <h3>Computer Science bachelor's degree <img src="https://media-exp1.licdn.com/dms/image/C560BAQEc8le1aXrovQ/company-logo_200_200/0/1620397406171?e=1648080000&v=beta&t=XW3gnNIsd4fS0pdbESLtFPA3xMR_A_CmLMza08d2mP0" height="70"></h3>
+                                    <h4>UNESA - Universidade Estácio de Sá</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
+                                </div>
+                            </div>
+                            <!-- timeline item end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- ABOUT SECTION END -->
+
+<!----------- PART 3 -------------->
+
+<!-- SERVICES SECTION START -->
+<section class="service-section section" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="Services">
+                    <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                    </svg> What i do <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                      </svg></h2>
+                <h2 data-heading="Serviços">
+                    <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                    </svg> O que eu faço <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                      </svg></h2>
+            </div>
+        </div>
+
+    <div class="row">
+            <!-- 1ST service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p class="poppins">I can create responsive Web, Desktop and Mobile apps that fit any resolution and contain essential information for users. It can adapt on TV, Desktop, Tablets and Smartphones. I work with 2D and 3D design!</p>
+                </div>
+            </div>
+            <!-- 1ST service item end -->
+            <!-- 1ST service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Design Responsivo</h3>
+                    <p class="poppins">I can create responsive Web, Desktop and Mobile apps that fit any resolution and contain essential information for users. It can adapt on TV, Desktop, Tablets and Smartphones. I work with 2D and 3D design!</p>
+                </div>
+            </div>
+            <!-- 1ST service item end -->
+
+            <!-- 2ND service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="far fa-globe"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p class="poppins">I can create beautiful and responsive websites with modern interfaces, implementation with database, server applications, web applications, e-commerce, commercials, business, portfolio, social medias, systems etc.</p>
+                </div>
+            </div>
+            <!-- 2ND service item end -->
+            <!-- 2ND service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="far fa-globe"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p class="poppins">I can create beautiful and responsive websites with modern interfaces, implementation with database, server applications, web applications, e-commerce, commercials, business, portfolio, social medias, systems etc.</p>
+                </div>
+            </div>
+            <!-- 2ND service item end -->
+
+            <!-- 3RD service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3>DevOps</h3>
+                    <p class="poppins">i work with DevOps (CI/CD) and Agile methodologies. Besides that, i can create architecture solutions with a dockerized solution, you will have an autoscale, highly available and highly secure.</p>
+                </div>
+            </div>
+            <!-- 3RD service item end -->
+            <!-- 3RD service item start -->
+            <div class="service-item">
+                <div class="service-item-inner outer-shadow">
+                    <div class="icon inner-shadow">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3>DevOps</h3>
+                    <p class="poppins">i work with DevOps (CI/CD) and Agile methodologies. Besides that, i can create architecture solutions with a dockerized solution, you will have an autoscale, highly available and highly secure.</p>
+                </div>
+            </div>
+            <!-- 3RD service item end -->
+
+     </div>
+   </div>
+</section>
+<!-- SERVICES SECTION END -->
+
+<!----------- PART 3 ------------->
+
+<!----------- PART 4 -------------->
+
+<!-- PORTFOLIO SECTION START -->
+<section class="portfolio-section section" id="portfolio">
+<!-- PORTFOLIO ITEMS CONTAINER START -->
+<div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="portfolio">
+                  <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg> Latest Works <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg></h2>
+            </div>
+            <div class="section-title">
+                <h2 data-heading="portfolio">
+                  <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg> Últimos Trabalhos <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg></h2>
+            </div>
+        </div>
+
+        <!-- (FILTER) portfolio filter start -->
+        <div class="row">
+            <div class="portfolio-filter"> <!--<i class="fas fa-filter"></i>-->
+                <span class="filter-item outer-shadow active" data-target="all">all</span>
+                <span class="filter-item" data-target="only">exclusive</span>
+                <span class="filter-item" data-target="only">exclusivo</span>
+                <span class="filter-item" data-target="front-end">front-end</span>
+                <span class="filter-item" data-target="back-end">back-end</span>
+                <span class="filter-item" data-target="mobile">mobile</span>
+                <span class="filter-item" data-target="full-stack">full-stack</span>
+                <span class="filter-item" data-target="extra">extra</span>
+            </div>
+        </div>
+        <!-- portfolio filter end -->
+
+       <!-- PORTFOLIO ITEMS START -->
+       <div class="row portfolio-items">
+
+          <!--+++++++ (1ST PORTFOLIO ITEM START) ++++++++++-->
+          <div class="portfolio-item" data-category="front-end">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/front/365daysofweb/banner.png" alt="Array=[0]" data-screenshots="" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span>
+            <span class="view-project poppins">ver projeto</span>
+        </div>
+        <p class="portfolio-item-title"><b>365DaysOfWeb</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>365 Days Of Web:</h3>
+                    <p>It's a project of 1 year = 365 days of coding with Web Development.</p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <h3>Informação do projeto</h3>
+                    <ul>
+                        <li>Date: <span>2022</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, Bootstrap, jQuery, MaterializeCSS, Sass, Less, Pug, React.js, Ember, Vue.js, Angular.js, Styled-Components</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://codepen.io/isaacalves7/pen/jOymeRp" target="_blank"><i class="fab fa-codepen"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (1ST PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (2ND PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="full-stack">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://user-images.githubusercontent.com/61624336/135576437-f191e82d-a65b-4f5a-b7f8-6741d83a3e9f.png" alt="Array=[1]" data-screenshots="https://user-images.githubusercontent.com/61624336/151483574-0a65645e-1e81-4d81-9022-1cb27eb37898.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Clone Multiverse</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Clone Multiverse:</h3>
+                    <p>It's a project of Clone</p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2022</span></li>
+                        <li>Deploy: <span>2022</span></li>
+                        <li>Latest Update: <span>2022</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (2ND PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (3RD PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="back-end">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/back/aws-cluster-standard-solution/banner.png" alt="Array=[2]" data-screenshots="../../public/images/jpeg/projects/back/aws-cluster-standard-solution/test.png,
+            ../../public/images/jpeg/projects/back/aws-cluster-standard-solution/1.png,
+            https://user-images.githubusercontent.com/7769947/38683859-c499ab8e-3e44-11e8-82e3-e23d2c95d1dd.png,
+            https://user-images.githubusercontent.com/7769947/38683857-c4740a82-3e44-11e8-9559-9d10910e2943.png,
+            https://user-images.githubusercontent.com/7769947/38740916-0469aba4-3f0f-11e8-992a-766665fc24c4.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Cluster Standard Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) Back-End Standard Solution:</h3>
+                    <p>It's my standard solution for deploying back-end web applications at AWS - Amazon Web Services cloud environment, your back-end web application is dockerized and runs on Amazon ECS Cluster resource together with my infrastructure architecture.</p>
+                    <p>I'll explain to you how that works, first of all, we have two pipelines (whatever the remote repository, in this example i'll choose the GitHub as a remote repository Third-party)</p>
+                    <p>With the AWS CloudFormation Templates in the pipeline to create the change-sets of used services</p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>07/12/2021</span></li>
+                        <li>For: <span>Practical test</span></li>
+                        <li>Tools: <span>AWS CloudFormation, Amazon EC2 - Elastic Computer Cloud, Amazon RDS - Relational Database Service, Bastion Host, (AWS ELB - Elastic Load Balancer) ALB - Application Load Balancer, AWS Auto-Scaling, Amazon VPC - Virtual Private Cloud, Amazon ECS - Elastic Container Service, Amazon ECR - Elastic Container Registry, AWS CodePipeline, AWS CodeBuild, Amazon S3 - Simple Storage Service, AWS CloudWatch, AWS SSM - System Manager, ACM - Amazon Certificate Manager, AWS Secrets Manager, GitHub, Docker, Docker Compose, Node.js, PostgreSQL, Express, Axios, pg-promise, body-parser, npm, jest, sql</span></li>
+                        <li>Tools Bonus: <span>Amazon Lambda, Slack and Amazon API Gateway.</span></li>
+                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/infra" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/backend-test" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (3RD PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (4TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="back-end">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/back/crud-projects/banner.png" alt="Array=[3]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>CRUD Projects</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Apple Complete Website:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (4TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (5TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://images.pexels.com/photos/1298684/pexels-photo-1298684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Array=[4]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Ocesea</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Ocesea:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (5TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (6TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://images.pexels.com/photos/7787745/pexels-photo-7787745.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Array=[5]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Pireef</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Pireef:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (6TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (7TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://images.pexels.com/photos/1061640/pexels-photo-1061640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Array=[6]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Bonpine</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Bonpine:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (7TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (8TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://images.pexels.com/photos/2666598/pexels-photo-2666598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Array=[7]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Popstent</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Popstent:</h3>
+                    <p>I created a plataform about</p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (8TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (9TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="mobile">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Array=[8]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Mobile Project</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Mobile Project:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (9TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (10TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="full-stack">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/full/aws-serverless-solution/banner.png" alt="Array=[9]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Serverless Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) API Serverless Solution:</h3>
+                    <p>I created a solution architecture of API Serverless for Web Applications. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Amazon Lambda, Amazon API Gateway, Amazon DynamoDB, Node.js, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (10TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (11TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="front-end">
+    <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/banner.png" alt="Array=[12]" data-screenshots="../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/1.png,
+            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/2.png,
+            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/3.png,
+            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/4.png,
+            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/5.png,
+            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/7.svg,
+            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/8.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Hosting Static Website Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) Hosting Static Website Solution:</h3>
+                    <p>It's my standard solution for deploying front-end web applications at AWS - Amazon Web Services cloud environment, your front-end web application is a Global CDN Hosting Solution.</p>
+                    <p>I'll explain to you how that works, first of all, we have two pipelines (whatever the remote repository, in this example i'll choose the GitHub as a remote repository Third-party).</p>
+                    <p>With the AWS CloudFormation Templates in the pipeline to create the change-sets of used services</p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Practical test</span></li>
+                        <li>Tools: <span>AWS CloudFormation, Amazon Route 53, Amazon CloudFront, ACM - Amazon Certificate Manager, Amazon S3 - Simple Storage Service, AWS CodeBuild, AWS CodePipeline and GitHub.</span></li>
+                        <li>Tools Bonus: <span>GitHub Actions and Amazon Lambda.</span></li>
+                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/infra" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/frontend-test" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+    </div>
+          </div>
+          <!--++++++++ (11TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (12TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/exclusive/M.A.R.I.A/banner.png" alt="Array=[11]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>M.A.R.I.A</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>M.A.R.I.A:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (12TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (13TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://images.pexels.com/photos/1766853/pexels-photo-1766853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Array=[12]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Pinespeaker</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Pinespeaker:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (13TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (14TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://images.pexels.com/photos/2885320/pexels-photo-2885320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Array=[13]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Pineseven</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Pinespeaker:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (14TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (15TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/exclusive/chemisbottle/banner.jpeg" alt="Array=[14]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Chemisbottle</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Pinespeaker:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (15TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (16TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="full-stack">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/back/aws-serverless-container-solution/1.png" alt="Array=[15]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Serverless Container Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Pinespeaker:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>HTML5, CSS3, JavaScript, SVG, GSAP, Node.js, MongoDB</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (16TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (17TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="full-stack">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/full/docker-web-stacks/banner8.png" alt="Array=[16]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Docker Templates</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Docker Templates:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (17TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (18TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="only">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://images.pexels.com/photos/221395/pexels-photo-221395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Array=[17]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Furutre</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Furutre:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (18TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (19TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="front-end">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/front/landing-pages/banner.png" alt="Array=[18]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Landing Pages</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Landing Pages:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (19TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (20TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="back-end">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/back/aws-networking-solutions/banner.jpg" alt="Array=[19]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Smart Networking Solutions</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Landing Pages:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (20TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (21TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-computer-vision-solution/banner.png" alt="Array=[20]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Computer Vision Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Landing Pages:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (21TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (22TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-big-data-solution/banner.jpg" alt="Array=[21]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Big Data Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Landing Pages:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (22TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (23TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-ai-solution/banner.png" alt="Array=[22]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) AI Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Landing Pages:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (23TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (24TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://d2908q01vomqb2.cloudfront.net/f6e1126cedebf23e1463aee73f9df08783640400/2019/11/22/Alexa-Voice-Service-Integration-for-AWS-IoT-Core_SocialMedia_2.png" alt="Array=[23]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) IoT Smart House Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) IoT Smart House Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (24TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (25TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-quantum-computing-solution/banner.png" alt="Array=[24]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Quantum Computing Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) Quantum Computing Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (25TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (26TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-mlops-solution/banner.png" alt="Array=[25]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) MLOps Framework Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) MLOps Framework Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (26TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (27TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-migration-solution/banner.png" alt="Array=[26]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Migration Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) Migration Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (27TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (28TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="https://d2908q01vomqb2.cloudfront.net/1b6453892473a467d07372d45eb05abc2031647a/2020/09/21/SiteMerch_Wavelength_SocialMedia_2.png" alt="Array=[27]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Edge Computing Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) Edge Computing Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (28TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (29TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-chatbot-solution/banner.png" alt="Array=[28]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) ChatBot Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) ChatBot Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (29TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (30TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-streaming-solution/banner.png" alt="Array=[29]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Streaming Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) Streaming Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (30TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (31TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-telco-cloud-solution/banner.png" alt="Array=[30]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Telco cloud Standard Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(aws) Telco cloud standard solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (31TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (32TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="front-end">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/front/ui-ux-design-templates/banner.png" alt="Array=[31]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>UI/UX Design Templates</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>UI/UX Design Templates:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (32TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (33TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="front-end">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/front/personal-portfolio-websites/banner.png" alt="Array=[32]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Personal Portfolio Websites</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Personal Portfolio Websites:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (33TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (34TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="full-stack">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/full/kubernetes-templates/7.png" alt="Array=[32]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(K8s) Kubernetes Templates</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(K8s) Kubernetes Templates:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Kubectl, Kubernetes, AWS CLI, Minikube</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (34TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (35TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/multi-cloud-solution/banner.jpg" alt="Array=[32]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Multi cloud Standard Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Multi cloud Standard Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (35TH PORTFOLIO ITEM END) +++++++++-->
+
+          <!--++++++++ (36TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="back-end">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/back/aws-parallelcluster-solution/banner.png" alt="Array=[32]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) ParallelCluster Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) ParallelCluster Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (36TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (37TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-backup-solution/banner.png" alt="Array=[32]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) Backup Standard Solution</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) Backup Standard Solution:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (37TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (38TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="back-end">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/back/web-scraping-projects/banner.png" alt="Array=[32]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>Web Scraping Projects</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>Web Scraping Projects:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (38TH PORTFOLIO ITEM END) +++++++++++-->
+
+          <!--++++++++ (39TH PORTFOLIO ITEM START) +++++++++-->
+          <div class="portfolio-item" data-category="extra">
+      <div class="portfolio-item-inner outer-shadow">
+        <div class="portfolio-item-img">
+            <img src="../../public/images/jpeg/projects/extra/aws-s3-microservices/banner.jfif" alt="Array=[32]" data-screenshots="./images/projects/full/jehcn/apple-complete-application/apple-responsive-website.png, ./images/projects/full/jehcn/apple-complete-application/(iPhone 5_SE).png, ./images/projects/full/jehcn/apple-complete-application/(iPad).png, ./images/projects/full/jehcn/apple-complete-application/apple-full-page.png" style="cursor: pointer;">
+            <!-- view project btn-->
+            <span class="view-project poppins">view project</span> <!--&#10140;-->
+        </div>
+        <p class="portfolio-item-title"><b>(AWS) S3 Upload Image Microservice</b></p>
+        <!-- portfolio item details start -->
+        <div class="portfolio-item-details">
+            <div class="row">
+                <div class="description">
+                    <h3>(AWS) Amazon S3 Upload Image Microservice:</h3>
+                    <p>I created a clone of the real Apple Website. This project is a </p>
+                </div>
+                <div class="info">
+                    <h3>Project info</h3>
+                    <ul>
+                        <li>Date: <span>2021</span></li>
+                        <li>For: <span>Improvement skills</span></li>
+                        <li>Tools: <span>Docker, Docker Compose, Docker SWARM, LAMP, LEMP, ROR, MEAN, MERN, MENV, PERN, XAMP, WINS, WAMP, WIMP, Laradock</span></li>
+                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/apple-clone" target="_blank"><i class="fab fa-github"></i></a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio item details end -->
+      </div>
+          </div>
+          <!--++++++++ (39TH PORTFOLIO ITEM END) +++++++++++-->
+
+       </div>
+       <!-- portfolio items end -->
+
+</div>
+<!-- PORTFOLIO ITEMS CONTAINER END -->
+</section>
+<!-- PORTFOLIO SECTION END -->
+
+<!----------- PART 5 - TESTIMONIAL -------------->
+<div class="testimonial-section section" id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="Testimonial"><svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg> What People Speak <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg></h2>
+                <h2 data-heading="Testimonial"><svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg> O que falam de mim <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="testi-box">
+                <div class="testi-slider outer-shadow">
+                    <div class="testi-slider-container">
+
+                        <!-- CRUD project = React.js + RubyOnRails (C.R.U.D - Create | Read | Update | Delete) -->
+
+                        <!-- People: Brazilians, Americans, Russians, etc ... -->
+
+                        <!-- (1st) testi item start -->
+                        <div class="testi-item">
+                            <i class="fas fa-quote-left left"></i>
+                            <i class="fas fa-quote-right right"></i>
+                            <!-- Stars of me - START -->
+                            <!-- Stars of me - END -->
+                            <p>Isaac é um profissional dedicado, sempre atento a detalhes e na resolução de problemas. Com seu conhecimento, não hesita em compartilhar e, é muito didático ao explicar.</p> <!-- Text of people -->
+                            <img src="https://avatars.githubusercontent.com/u/77984420?v=4" alt="João Pedro"> <!-- Photo profile = upload -->
+                            <p><b>João Pedro</b></p> <!--User name-->
+                        </div>
+                        <!-- (1st) testi item end -->
+
+                        <!-- (2nd) testi item start -->
+                        <!-- <div class="testi-item">
+                            <i class="fas fa-quote-left left"></i>
+                            <i class="fas fa-quote-right right"></i>
+                            <p>Gostei da explicação. Pô muito maneiro mano. Vc vai conseguir coisas grandes na sua vida!! Hoje você me ajuda, amanhã te ajudo e assim vamos caminhando. Explicação bem didática ein, já serve pra virar coach.</p>
+                            <img src="../../public/images/jpeg/testimonial/caio-barboza.jpg" alt="Caio Barboza">
+                            <p><b>Caio Barboza</b></p>
+                        </div> -->
+                        <!-- (2nd) testi item end -->
+                    </div>
+                </div>
+                <div class="testi-slider-nav">
+                    <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left"></i></span>
+                    <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------- PART 5 ---------------------------->
+
+
+<!-- PART 6 - contact section start -->
+<section class="contact-section section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="Contato"><svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg> Entrar em contato <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg> </h2>
+                <h2 data-heading="Contact"><svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg> Get In Touch <svg style="margin-top: -7px;" height="24" viewBox="0 0 21 21" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
+                  </svg> </h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- contact item start -->
+            <div class="contact-item">
+                <a href="tel:+5521995272677" title="My Number">
+                 <div class="contact-item-inner outer-shadow">
+                    <i class="fas fa-phone"></i>
+                    <span>Phone</span>
+                    <span>Telefone</span>
+                    <p class="poppins">+55 21 99527-2677</p>
+                 </div>
+                </a>
+            </div>
+            <!-- contact item end -->
+            <!-- contact item start -->
+            <div class="contact-item">
+                <a href="mailto:isaac.alves0720@gmail.com">
+                  <div class="contact-item-inner outer-shadow">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                    <p class="poppins">isaac.alves0720@gmail.com</p>
+                  </div>
+                </a>
+            </div>
+            <!-- contact item end -->
+            <!-- contact item start -->
+            <div class="contact-item">
+                <div class="contact-item-inner outer-shadow" id="address">
+                   <i class="fas fa-map-marker-alt"></i>
+                   <span>Address</span>
+                   <span>Endereço</span>
+                   <p class="poppins">Campo Grande, RJ - Brazil</p>
+                   <p class="poppins">Campo Grande, RJ - Brasil</p>
+                </div>
+            </div>
+            <!-- contact item end -->
+        </div>
+        <div class="row">
+            <div class="contact-form">
+                <form action="">
+                    <div class="row">
+                        <div class="w-50">
+                            <div class="input-group outer-shadow hover-in-shadow">
+                                <input type="text" placeholder="Name" class="input-control">
+                                <input type="text" placeholder="Nome" class="input-control">
+                            </div>
+                            <div class="input-group outer-shadow hover-in-shadow">
+                                <input type="text" placeholder="Email" class="input-control">
+                            </div>
+                            <div class="input-group outer-shadow hover-in-shadow">
+                                <input type="text" placeholder="Subject" class="input-control">
+                                <input type="text" placeholder="Sujeito" class="input-control">
+                            </div>
+                        </div>
+                        <div class="w-50">
+                            <div class="input-group outer-shadow hover-in-shadow">
+                                <textarea class="input-control" placeholder="Message"></textarea>
+                                <textarea class="input-control" placeholder="Mensagem"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="submit-btn">
+                            <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+                            <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Enviar Mensagem</button>
+                        </div>
+                        <!-- <div class="whats-btn">
+                            <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5521998282787" class="btn-1 outer-shadow hover-in-shadow"><i class="fab fa-whatsapp"></i>&nbsp;Let's Type!</a>
+                        </div> -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PART 6 - contact section end -->
+
+<!-- PART 4 - PORTFOLIO POPUP START -->
+<div class="pp portfolio-popup">
+    <div class="pp-details">
+        <div class="pp-details-inner">
+            <div class="pp-title">
+                <h2>Project Category</h2>
+                <p>Category - <span class="pp-project-category">Design</span></p>
+            </div>
+            <div class="pp-project-details">
+                <!-- portfolio item details start -->
+                <div class="portfolio-item-details">
+                    <div class="row">
+                        <div class="description">
+                            <h3>Project Brief:</h3>
+                            <p>Tests.</p>
+                        </div>
+                        <div class="info">
+                            <h3>Project info</h3>
+                            <ul>
+                                <li>Date: <span>2021</span></li>
+                                <li>For: <span>Improvement skills</span></li>
+                                <li>Tools: <span>HTML5 and CSS3</span></li>
+                                <li>URL: <span> <a class="outer-shadow hover-in-shadow" href="https://codepen.io/isaacalves7/pen/jOymeRp" title="CodePen" target="_blank"><i class="fab fa-codepen"></i></a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="pp-main">
+        <div class="pp-main-inner">
+            <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details <i class="fas fa-plus"></i></div>
+            <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
+            <img src="../.." alt="img" class="pp-img outer-shadow">
+            <div class="pp-counter open-sans">1 of 7</div>
+        </div>
+        <div class="pp-loader">
+            <div></div>
+        </div>
+        <!-- pp navigation -->
+        <div class="pp-prev"><i class="fas fa-play"></i></div>
+        <div class="pp-next"><i class="fas fa-play"></i></div>
+    </div>
+</div>
+<!-- PART 4 - PORTFOLIO POPUP END -->
+
+<!----------- PART 4 -------------->
+
+<!-- Style switcher start - for demo purposes only -->
+<aside class="style-switcher">
+    <div class="style-toggler">
+        <i class="fas fa-cog fa-spin"></i>
+
+        <!-- Light/Night style switch start -->
+        <div class="day-night">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </div>
+        <!-- Light/Night style switch end -->
+
+        <!-- Theme Color style switch start -->
+        <h4>Theme Color</h4>
+        <i class="fa fa-palette"></i>
+        <!-- Theme Color style switch end -->
+
+        <!-- Translator switch start -->
+        <div class="translator">
+            <i class="fa fa-flag"></i>
+            <div class="container">
+                <span class="pt-br">Português (Brasil)</span>
+                <input type="radio" class="check">
+                <span class="us-en">English (US)</span>
+                <input type="radio" class="check">
+                <span class="espanol">Español</span>
+                <input type="radio" class="check">
+                <span class="frances">Français</span>
+                <input type="radio" class="check">
+                <span class="italian">Italiano</span>
+                <input type="radio" class="check">
+                <span class="german">Deutsch</span>
+            </div>
+        </div>
+        <!-- Translator switch end -->
+
+        <!-- Mod UI switch start -->
+        <div class="mod-ui">
+            <i class="fa fa-browser"></i>
+            <h3>New: Mod UI</h3>
+        </div>
+        <!-- Mod UI switch end -->
+    </div>
+</aside>
+<!-- Style switcher end -->
+
+<!-- main -->
+  <!-- article -->
+  <!-- article -->
+  <!-- article -->
+<!-- main -->
+
+<!-- figure -->
+<!-- figure -->
+
+
+<!-- footer -->
+   <!-- social medias -->
+<!-- footer -->
+
+</div>
+<!-- CONTENT ♚ END -->
+
+<!-- SCRIPTS VANILLA JS -->
+<script src="../../public/scripts/js/main.js"></script>
+</body>
+</html>
