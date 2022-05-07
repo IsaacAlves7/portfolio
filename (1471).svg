@@ -1,0 +1,16 @@
+<svg width="170" height="92" viewBox="0 0 170 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.5331 21.4665C24.5331 33.3221 34.144 42.9329 45.9996 42.9329C57.8552 42.9329 67.4661 33.3221 67.4661 21.4665C67.4661 9.61086 57.8552 0 45.9996 0C34.144 0 24.5331 9.61086 24.5331 21.4665Z" fill="#00DFA1"/>
+<rect x="24.2776" y="42.9331" width="42.9329" height="145.154" rx="21.4665" transform="rotate(-90 24.2776 42.9331)" fill="url(#paint0_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M150.265 70.5329C150.265 82.3885 140.654 91.9993 128.799 91.9993C116.943 91.9993 107.332 82.3885 107.332 70.5329C107.332 58.6773 116.943 49.0664 128.799 49.0664C140.654 49.0664 150.265 58.6773 150.265 70.5329Z" fill="#FF5AEC"/>
+<rect width="42.9329" height="150.265" rx="21.4665" transform="matrix(0 -1 -1 0 150.265 91.9995)" fill="url(#paint1_linear)"/>
+<defs>
+<linearGradient id="paint0_linear" x1="65.184" y1="174.384" x2="65.184" y2="42.9331" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.01"/>
+<stop offset="1" stop-color="#FF5AEC"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="1.33581" y1="0" x2="1.33581" y2="140.915" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00DFA1"/>
+<stop offset="1" stop-opacity="0.01"/>
+</linearGradient>
+</defs>
+</svg>
