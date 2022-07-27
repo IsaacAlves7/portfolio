@@ -1,7 +1,0 @@
-# 👨🏾‍💻 portfolio
-
-# ☕ icons
-
-# 💾 storage
-
-# ▶️ Medias
