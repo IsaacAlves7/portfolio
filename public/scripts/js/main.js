@@ -310,8 +310,6 @@ function bodyScrollingToggle(){
     }
 })();
 
-/*----------------------- Testimonial slider -------------------------*/
-
 /* ---------------- Hide all sections except active ---------------- */
 (()=>{
     // console.log("hi");
