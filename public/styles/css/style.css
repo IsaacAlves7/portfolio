@@ -16,7 +16,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    cursor: url(../../icons/cursor.svg), auto;
+    /* cursor: url(../../icons/cursor.svg), auto; */
 }
 
 ::before,::after{
@@ -52,16 +52,20 @@ input{
     --neutro-gray:#ccc;
 
     /* MULTICOLOR */
-    --red:#cc3a3b;
-    --yellow:#FFFF64;
+    --angularjs:#cc3a3b;
+    --angular: #DD0031;
+    --js:#FFFF64;
     --orange:#F5792A;
-    --brown: #9b6330;
-    --green:#1fc586;
+    --java: #9b6330;
+    --vue:#1fc586;
     --purple:#8056e3;
+    --dotnet: #512BD4;
+    --JavaScript:#F7DF1E;
     --violet:#FF61F6;
     --blue:#2eb1ed;
-    --bluex:#326CE5;
-    --pink:#fb839e;
+    --react: #61DAFB;
+    --jquery:#326CE5;
+    --sass:#fb839e;
 
     /* GLOWCOLOR */
     --glow-green:#23d6928a;
@@ -100,12 +104,12 @@ input{
 }
 
 mark{
-    background-color: var(--green);
+    background-color: var(--main);
     color: white;
 }
 
 mark a{
-    background-color: var(--green);
+    background-color: var(--main);
     color: white;
 }
 
@@ -129,7 +133,7 @@ strong blockquote{
 
 ::selection{
     color: var(--neutro-white);
-    background-color: var(--green);
+    background-color: var(--main);
     /* -webkit-backdrop-filter:saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px); */
 }
@@ -254,11 +258,11 @@ img{
     padding: 10px 25px;
     font-size: 17px;
     font-weight: 500;
-    color: var(--green);
+    color: var(--main);
     background-color: transparent;
     line-height: 1.5;
     cursor: pointer;
-    cursor: url(../../icons/pointer.svg), auto;
+    /* cursor: url(../../icons/pointer.svg), auto; */
     transition: all 0.3s ease;
     display: inline-block;
     border: none;
@@ -282,7 +286,7 @@ img{
 }
 
 .change{
-    color: var(--green);
+    color: var(--main);
 }
 
 .skills-progress-title{
@@ -325,7 +329,7 @@ img{
 
 .effect-3{
     width: 180px; height: 180px;
-    border: 25px solid var(--green);
+    border: 25px solid var(--main);
     border-radius: 50%;
     left: 50%;
     top: -120px;
@@ -433,7 +437,7 @@ img{
     display: block;
     font-size: 17px;
     font-weight: 600;
-    color: var(--green);
+    color: var(--main);
 }
 
 .section.hide{
@@ -508,8 +512,8 @@ img{
     font-size: 24px; */
 
 /* >>> Letter-Logo <<< */
-    /* color: var(--green);
-    border: 2px solid var(--green);
+    /* color: var(--main);
+    border: 2px solid var(--main);
     border-radius: 50%; <-- no important!
     font-size: 24px;
     font-weight: 600;
@@ -517,7 +521,7 @@ img{
 }
 
 .change-color:hover{
-    fill: var(--green);
+    fill: var(--main);
 }
 
 /* >>>>>>>>>> NAVIGATION MENU <<<<<<<<<< */
@@ -631,7 +635,7 @@ img{
 }
 
 .nav-menu ul li a.active{
-    color: var(--green);
+    color: var(--main);
 }
 
 .nav-menu ul li a:after{
@@ -767,7 +771,7 @@ img{
 }
 
 .about-section .about-img .social-links a:hover{
-    color: var(--green);
+    color: var(--main);
 }
 
 .about-section .about-info{
@@ -827,7 +831,7 @@ img{
 }
 
 .about-section .about-tabs .tab-item.active{
-    color: var(--green);
+    color: var(--main);
 }
 
 .about-section .tab-content{
@@ -867,7 +871,7 @@ img{
 }
 
 .about-section .skills .skill-item .progress-bar{
-    background-color: var(--green);
+    background-color: var(--main);
     height: 6px;
     left: 7px;
     top: 7px;
@@ -899,7 +903,7 @@ img{
 
 .progress-icons:hover{
     cursor: pointer;
-    fill: var(--green);
+    fill: var(--main);
 }
 
 .about-section .education,
@@ -952,7 +956,7 @@ img{
     border: 1px dashed var(--bg-black-100);
     border-radius: 50%;
     font-size: 17px;
-    color: var(--green);
+    color: var(--main);
     line-height: 40px;
     position: absolute;
     top: 18px;
@@ -986,7 +990,7 @@ img{
 
 .about-section .timeline .timeline-item-inner span{
     font-weight: 500;
-    color: var(--green);
+    color: var(--main);
     display: block;
     margin: 0 0 10px;
     text-transform: capitalize;
@@ -1077,7 +1081,7 @@ img{
 }
 
 .service-section .service-item-inner:hover .icon i{
-    color: var(--green);
+    color: var(--main);
 }
 
 .service-section .service-item-inner h3{
@@ -1134,7 +1138,7 @@ img{
 }
 
 .portfolio-section .filter-item.active{
-    color: var(--green);
+    color: var(--main);
 }
 
 .portfolio-section .filter-item:hover:not(.active){
@@ -1191,7 +1195,7 @@ img{
     text-transform: capitalize;
     font-size: 17px;
     font-weight: 500;
-    color: var(--green);
+    color: var(--main);
     transition: all 0.3s ease;
     position: absolute;
     left: 0;
@@ -1406,7 +1410,7 @@ img{
     border-radius: 30px;
     font-size: 17px;
     font-weight: 500px;
-    color: var(--green);
+    color: var(--main);
     cursor: pointer;
     padding: 0 15px;
     top: 15px;
@@ -1451,7 +1455,7 @@ img{
 
 .portfolio-popup .pp-prev:hover,
 .portfolio-popup .pp-next:hover{
-    color: var(--green);
+    color: var(--main);
     opacity: 1;
 }
 
@@ -1507,7 +1511,7 @@ img{
 }
 
 .info ul li span a:hover{
-    color: var(--green);
+    color: var(--main);
 }
 
 .portfolio-popup .pp-loader{
@@ -1533,7 +1537,7 @@ img{
     width: 40px;
     height: 40px;
     /*background-color: red;
-    */border: 3px solid var(--green);
+    */border: 3px solid var(--main);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
