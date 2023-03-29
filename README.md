@@ -14,3 +14,16 @@
 1. <a href="https://slack.com/intl/pt-br">Slack</a>
 2. <a href="https://meet.google.com/">Google Meet</a>
 3. <a href="https://www.microsoft.com/pt-br/microsoft-teams/log-in">Microsoft Teams</a>
+
+# Extensões
+
+## Google Chrome
+- https://chrome.google.com/webstore/detail/paint-tool-for-chrome/coabfkgengacobjpmdlmmihhhfnhbjdm/related
+- Captura de tela e gravador de tela impressionantes
+- Analytics Watcher
+
+## VsCode
+- Dracula
+- Git Lens
+- Fira Code font
+- ZSH
