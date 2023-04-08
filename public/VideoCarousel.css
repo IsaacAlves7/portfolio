@@ -1,0 +1,30 @@
+.carousel{
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.carousel .carousel-control-prev-icon{
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control-prev-icon{
+    visibility: visible;
+}
+
+.carousel .carousel-control-next-icon{
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control-next-icon{
+    visibility: visible;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
