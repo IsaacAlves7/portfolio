@@ -1,853 +1,841 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#1fc586">
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-    <!-- FONTAWESOME 6 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/duyplus/fontawesome-pro/css/all.css">
-    <!-- BOOTSTRAP 5 ICONS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <!-- UNICONS -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
-    <!-- MaterializeCSS ICONS-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- FAVICON -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <title>IsaacAlves7 (Isaac Alves Pinheiro)</title>
-</head>
-<body>
-<!-- LOADING START -->
-<section id="loading" class="neuromorphism-icon">
-    <svg height="77" viewBox="0 0 24 21" xmlns="http://www.w3.org/2000/svg" fill="#ccc"><path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/></svg>
+	<!-- meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Carlos Portfolio</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/parallax.js">
 
-    <script type="text/javascript">
-        var i = setInterval(function () {
+		var timeout;
+		$('#container').mousemove(function(e){
+		  if(timeout) clearTimeout(timeout);
+		  setTimeout(callParallax.bind(null, e), 200);
+		  
+		});
 
-         clearInterval(i);
+		function callParallax(e){
+		  parallaxIt(e, '.slide', -100);
+		  parallaxIt(e, 'img', -30);
+		}
 
-         // O código desejado é apenas isto:
-         document.getElementById("loading").style.display = "none";
-         document.getElementById("conteudo").style.display = "inline";
+		function parallaxIt(e, target, movement){
+		  var $this = $('#container');
+		  var relX = e.pageX - $this.offset().left;
+		  var relY = e.pageY - $this.offset().top;
+		  
+		  TweenMax.to(target, 1, {
+		    x: (relX - $this.width()/2) / $this.width() * movement,
+		    y: (relY - $this.height()/2) / $this.height() * movement,
+		    ease: Power2.easeOut
+		  })
+		}
+	</script>
 
-        }, 1700);
+
+	<script type="text/javascript">
+
+
+
+		function action1(){
+		var pic = "img/infographic/nov/2016ativ.png"
+		document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
+		}
+		function action2(){
+		var pic = "img/infographic/nov/2017ativ.png"
+		document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
+		}
+		function action3(){
+		var pic = "img/infographic/nov/2018ativ.png"
+		document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
+		}
+		function action4(){
+		var pic = "img/infographic/nov/2019ativ.png"
+		document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
+		}
+		function picture0(){ 
+        var pic = "img/infographic/nov/baseline.png"
+        document.getElementById('bigpic').src = pic.replace('90x90', '225x225');
+
+        }
+
     </script>
-</section>
-<!-- LOADING END -->
 
-<!-- CONTENT ♚ START -->
-<div id="conteudo" style="display: none;">
+</head >
 
-<!-- HEADER START -->
- <header class="header">
-     <div class="container">
-         <div class="row justify-content-between">
-             <div class="logo">
-                 <a href="index.html" target="_self" class="link-item">
-                    <svg id="glow1" onmouseover="glow()" onmouseout="glowNone()" class="change-color" height="35" width="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g>
-                          <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
-                          <!-- <animate attributeType="XML" attributeName="fill" from="red" to="green" dur="3s" repeatCount="indefinite"/> -->
-                        </g>
-                    </svg>
-                    <script>
-                        glow = () => {
-                            document.getElementById("glow1").style.transition="0.7s";
-                            document.getElementById("glow1").style.filter="blur(21%)";
-                            document.getElementById("glow1").style.filter="drop-shadow(0 0 1px #23d6928a)";
-                            document.getElementById("glow1").style.filter="drop-shadow(0 0 21px #23d6928a)";
-                            document.getElementById("glow1").style.filter="drop-shadow(0 0 7px #23d6928a)";
-                        }
-
-                        glowNone = () => {
-                            document.getElementById("glow1").style.filter="none";
-                        }
-                     </script>
-                 </a>
-             </div>
-             <div class="hamburger-btn outer-shadow hover-in-shadow">
-                 <span></span>
-             </div>
-         </div>
-     </div>
- </header>
- <!-- HEADER END -->
-
-<!-- NAVIGATION MENU START -->
-<nav class="nav-menu">
-   <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
-   <div class="nav-menu-inner">
-       <ul>
-           <li><a href="#home" class="link-item inner-shadow active">Home</a></li>
-           <li><a href="#about" class="link-item outer-shadow hover-in-shadow">About</a></li>
-           <li><a href="#services" class="link-item outer-shadow hover-in-shadow">Services</a></li>
-           <li><a href="#portfolio" class="link-item outer-shadow hover-in-shadow">Portfolio</a></li>
-           <li><a href="#testimonial" class="link-item outer-shadow hover-in-shadow ">Testimonial</a></li>
-           <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
-       </ul>
-   </div>
-   <!-- copyright text start-->
-   <p class="copyright-text poppins">&copy; 2024 IsaacAlves7 <svg height="17" enable-background="0 0 49 49" viewBox="0 0 21 21" width="17" xmlns="http://www.w3.org/2000/svg">
-    <path d="m20.854 19.811-3.515-4.761h1.911c.285 0 .545-.162.672-.417.126-.256.097-.561-.076-.788l-3.655-4.795h1.059c.28 0 .536-.156.665-.404s.11-.547-.051-.776l-5.25-7.5c-.28-.4-.948-.4-1.229 0l-5.25 7.5c-.161.229-.18.528-.051.776.13.248.386.404.666.404h1.059l-3.656 4.795c-.173.227-.202.532-.076.788.127.255.387.417.672.417h1.911l-3.515 4.761c-.168.228-.193.531-.066.783.127.253.386.412.669.412h16.5c.283 0 .542-.159.669-.412.13-.253.104-.556-.063-.783z"/>
-</svg> Isaac Alves Pinheiro</p>
-</nav>
-<div class="fade-out-effect">
-
-</div>
-<!-- NAVIGATION MENU END -->
-
-<!------------ PART 1 --------------->
-
-<!------------ PART 2 --------------->
-
-<!-- HOME SECTION START -->
-<section class="home-section section active" id="home">
-    <!-- effect wrap start --> <!-- floating square effect -->
-    <div class="effect-wrap">
-        <div class="effect effect-1">
-        </div>
-        <div class="effect effect-2">
-        <!-- 28 divs for the effect -->
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="effect effect-3">
-        </div>
-        <div class="effect effect-4">
-        </div>
-        <div class="effect effect-5">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- effect wrap end -->
-    <div class="container">
-        <div class="row full-screen align-items-center">
-            <div class="home-text">
-                <p>Hello!</p>
-                <h2>I'm&nbsp;<strong class="change">IsaacAlves<b class="poppins">7</b></strong></h2>
-                <h1>My name is Isaac Alves Pinheiro.</h1>
-                <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow" id="button-modal">About me</a>
-            </div>
-            <div class="home-img">
-                <div class="img-box inner-shadow">
-                    <!-- Imagem.png de dimensões iguais wxh == 500 || 700 -->
-                    <img src="https://avatars.githubusercontent.com/u/61624336?v=4" class="outer-shadow" alt="main.png" title="It's me!" style="cursor: pointer;">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- HOME SECTION END -->
-
-<!----------- PART 2 ---------------->
-
-<!-- ABOUT SECTION START -->
-<section class="about-section section" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-              <h2 data-heading="main info">About me</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="about-img">
-                <div class="img-box inner-shadow">
-                    <img src="https://avatars.githubusercontent.com/u/61624336?v=4" class="outer-shadow" alt="profile-pic.jpg" style="cursor: pointer;">
-                </div>
-                <!-- social-medias links start -->
-                <div class="social-links">
-                    <!-- <a class="outer-shadow hover-in-shadow" href="https://codepen.io/isaacalves7/" target="_blank" title="CodePen"><i class="fab fa-codepen"></i></a>
-                    <a class="outer-shadow hover-in-shadow" href="https://dribbble.com/IsaacAlves7" target="_blank" title="Dribbble"><i class="fab fa-dribbble"></i></i></a>
-                    <a class="outer-shadow hover-in-shadow" href="https://www.artstation.com/isaacalves7" target="_blank" title="Artstation"><i class="fab fa-artstation"></i></a> -->
-                    <!-- <a class="outer-shadow hover-in-shadow" href="https://www.youtube.com/channel/UCqmO8zdeHhhAKUlhv1LJXkA" target="_blank" title="YouTube Channel"><i class="fab fa-youtube"></i></a> -->
-                    <!-- <a class="outer-shadow hover-in-shadow" href="https://pt.stackoverflow.com/users/246322/isaacalves7" target="_blank" title="Stack Overflow"><i class="fab fa-stack-overflow"></i></a> -->
-                    <!-- <a class="outer-shadow hover-in-shadow" href="https://api.whatsapp.com/send?l=pt_BR&phone=5521998282787" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a> -->
-                    <!-- <a class="outer-shadow hover-in-shadow" href="#" target="_blank" title="Spotify"><i class="fab fa-spotify"></i></a> -->
-                    <a class="outer-shadow hover-in-shadow" href="https://www.linkedin.com/in/isaacalves7/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a class="outer-shadow hover-in-shadow" href="https://gitlab.com/IsaacAlves7" target="_blank" title="GitLab"><i class="fa-brands fa-gitlab"></i></i></a>
-                    <a class="outer-shadow hover-in-shadow" href="https://hub.docker.com/u/isaacalves7" target="_blank" title="Docker Hub"><i class="fab fa-docker"></i></a>
-                </div>
-                <!-- social-medias links end -->
-            </div>
+<body style="background-color: #1a191c;">
+	<!--================ Começo do cabeçalho =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+							<li class="nav-item"><a class="nav-link" href="#infografico">Infográfico</a></li>
+							<li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+							<!--<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">Páginas</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link">WIP</a></li>
+									<li class="nav-item"><a class="nav-link">WIP</a></li>
+									<li class="nav-item"><a class="nav-link">WIP</a></li>
+								</ul>
+							</li>-->
+							
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
 
 
-<!-- ABOUT SECTION START -->
-            <div class="about-info">
-                <p><b class="poppins">Hello, world! It's a great pleasure see you here, welcome to my portfolio!</b></p>
-                <p class="poppins">My name is Isaac Alves Pinheiro, i'm 23 years old and graduate on bachelor's degree in Computer Science.</p>
-                <p class="poppins">Sou Desenvolvedor Full-Stack Júnior e tenho dois anos de experiência profissional trabalhando na área de TI - Tecnologia da Informação, utilizando modernas tecnologias para auxiliar as empresas no mercado de trabalho com habilidades técnicas e pessoais com foco na tomada de decisão e solução de problemas, centrado no cliente e com pensamento crítico aguçado. Ao longo da minha trajetória profissional, tenho buscado criar soluções inovadoras e eficientes, trazendo uma nova perspectiva lógica para entender as demandas apresentadas e, assim, desenvolver as melhores estratégias de solução para propor melhorias para o negócio.</p>
-                <a href="../../public/download/cv.pdf" class="btn-1 outer-shadow hover-in-shadow" download>Read  more</a>
-                <a href="../../public/download/cv.pdf" class="btn-1 outer-shadow hover-in-shadow" download>Download CV</a>
-            </div>
-        </div>
-        <!-- about tabs start -->
-        <div class="row">
-            <div class="about-tabs">
-                <span class="tab-item outer-shadow active" data-target=".skills">Skills</span>
-                <span class="tab-item" data-target=".experience">Experience</span>
-                <span class="tab-item" data-target=".education">Education</span>
-            </div>
-        </div>
-        <!-- about tabs end -->
+	<div class="concent">
+		<ul id="scene">
+			<li class="layer" data-depth="0.5"><img id="imgback" src="img/background.png"></li>
+		</ul>
+	</div>
+	<div class="concent2">
+		<ul id="scene2">
+			<li class="layer" data-depth="0.5"><img id="imgback" src="img/background2.png"></li>
+		</ul>
+	</div>
+	<div class="concent3">
+		<ul id="scene3">
+			<li class="layer" data-depth="0.5"><img id="imgback" src="img/background3.png"></li>
+		</ul>
+	</div>
+	<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
 
-        <!-- skills progress start -->
-        <div class="row">
-          <div class="skills tab-content active">
+		var scene2 = document.getElementById('scene2');
+		var parallax2 = new Parallax(scene2);
 
-            <!-- <div class="row"><div class="skill-item"></div></div> -->
-          </div>
-        </div>
-        <!-- skills progress end -->
-
-        <!-- experience start -->
-        <div class="row">
-            <div class="experience tab-content">
-                <div class="row">
-                    <div class="timeline">
-                        <div class="row">
-                            <!-- (Actually) timeline item start -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fa fa-building icon"></i>
-                                    <span class="poppins">Currently - March, 2022</span>
-                                    <h3>FullStack Trainee @HeadMind Partners</h3>
-                                    <i>Hybrid Work</i>
-                                    <p align="left">Essa foi a minha segunda oportunidade de estágio, agora estou participando na área de Desenvolvimento de Software em uma empresa consultoria focada no ramo de desenvolvimento, IA - Inteligência Artificial e Cibersegurança.</p>
-                                    <p align="left">A <cite>HeadMind Partners</cite>, ex-Beijaflore, foi uma ótima oportunidade de aprendizado como Desenvolvedor Full-Stack focado em tecnologias Front-End e Back-End, como: React.js, RubyOnRails e Java.</p>
-                                    <p align="left">Nessa empresa aprendi mais sobre: React.js, Ruby, RubyOnRails, GitHub Actions, GitOps, AZ - Microsoft Azure, Cloud e Edge Computing (on-premises), Telco cloud, SDN / NFV, Redes de computadores, Sistemas distribuídos, metodologias ágeis com frameworks Scrum e Kanban, Kubernetes, Terraform, Ansible, Grafana, Linode, Nextcloud, Travis CI, Jenkins, HAProxy, Vagrant, Vault, New Relic, Swagger, ETL, pré-processador Sass, Arquitetura de Sistemas, Elixir, Scala, Clojure.</p>
-                                    <blockquote align="center"><strong>|</strong> Muito obrigado HeadMind Partners!</blockquote>
-                                </div>
-                            </div>
-                            <!-- (Actually) timeline item end -->
-
-                            <!-- timeline item start -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fas fa-briefcase icon"></i>
-                                    <span class="poppins">July, 2021 - January, 2022</span>
-                                    <h3>DevOps Intern @EZOps.cloud</h3>
-                                    <i>Remote Work (Home Office)</i>
-                                    <p align="left">Essa foi minha primeira oportunidade de trabalho na área de TI, estagiei na área de DevOps em uma empresa focada nesse ramo com o período de 6 meses.</p>
-                                    <p align="left">A <cite>EZOps.cloud</cite> foi uma ótima oportunidade de aprendizado na área de DevOps, com conceitos, teorias e práticas fundamentais para o meu crescimento profissional.</p>
-                                    <p align="left" class="links">Nessa empresa aprendi mais sobre: <a href="https://git-scm.com/" target="_blank">Git</a> e <a href="https://github.com" target="_blank">GitHub</a>, <a href="https://bitbucket.org" target="_blank">BitBucket</a>, <a href="https://uptimerobot.com" target="_blank">UptimeRobot</a>, <a href="https://vuejs.org/" target="_blank">Vue.js</a>, <a href="https://www.google.com/search?q=CI%2FCD&oq=CI%2FCD&aqs=chrome..69i57j69i58.2094j0j1&sourceid=chrome&ie=UTF-8" target="_blank">CI/CD</a> e a cultura <a href="https://pt.wikipedia.org/wiki/DevOps" target="_blank">DevOps</a>, <a href="https://pt.wikipedia.org/wiki/Rede_de_computadores" target="_blank">Redes de computadores</a>, <a href="https://pt.wikipedia.org/wiki/Sistema_Operacional_Distribu%C3%ADdo#:~:text=Um%20sistema%20distribu%C3%ADdo%20%C3%A9%20uma,possam%20manter%20uma%20comunica%C3%A7%C3%A3o%20eficiente." target="_blank">Sistemas distribuídos</a>, <a href="https://www.google.com/search?q=metodologias+%C3%A1geis&oq=metodologias+%C3%A1geis&aqs=chrome..69i57.5574j0j1&sourceid=chrome&ie=UTF-8" target="_blank">metodologias ágeis</a> com frameworks <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)" target="_blank">Scrum</a> e <a href="https://pt.wikipedia.org/wiki/Kanban" target="_blank">Kanban</a>, <a href="https://www.docker.com/" target="_blank">Docker</a> e ferramentas para orquestração de containers, <a href="https://www.google.com/search?q=Linux&oq=Linux&aqs=chrome..69i57j69i61j69i65l3j69i61l2.1134j0j4&sourceid=chrome&ie=UTF-8" target="_blank">Linux</a>, <a href="https://www.nginx.com/" target="_blank">NGINX</a> e <a href="https://aws.amazon.com/pt/" target="_blank">AWS - Amazon Web Services</a>.</p>
-                                    <blockquote align="center"><strong>|</strong> Muito obrigado EZOps.cloud!</blockquote>
-                                </div>
-                            </div>
-                            <!-- timeline item end -->
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- experience end -->
-
-        <!-- education start -->
-        <div class="row">
-            <div class="education tab-content">
-                <div class="flex infinite-knowledge" title="Click to see my knowledge and skills level">
-                    <div class="svgBox">
-                        <svg width="300px" height="200px" viewBox="0 0 187.3 93.7" >
-                            <defs>
-                                <linearGradient id="col">
-                                    <stop offset="0%" stop-color="#d2305c"/>
-                                    <stop offset="25%" stop-color="#ff5e00"/>
-                                    <stop offset="50%" stop-color="#ffeb00"/>
-                                    <stop offset="75%" stop-color="#1cff00"/>
-                                    <stop offset="100%" stop-color="#00b9ff"/>
-                                </linearGradient>
-                            </defs>
-                            <path
-                              d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
-                            <path
-                              d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
-                        </svg>
-    
-                        <svg width="300px" height="200px" viewBox="0 0 187.3 93.7" >
-                            <defs>
-                                <linearGradient id="col">
-                                    <stop offset="0%" stop-color="#d2305c"/>
-                                    <stop offset="25%" stop-color="#ff5e00"/>
-                                    <stop offset="50%" stop-color="#ffeb00"/>
-                                    <stop offset="75%" stop-color="#1cff00"/>
-                                    <stop offset="100%" stop-color="#00b9ff"/>
-                                </linearGradient>
-                            </defs>
-                            <path
-                              d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
-                            <path
-                              d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
-                        </svg>
-    
-                        <svg width="300px" height="200px" viewBox="0 0 187.3 93.7" >
-                            <defs>
-                                <linearGradient id="col">
-                                    <stop offset="0%" stop-color="#d2305c"/>
-                                    <stop offset="25%" stop-color="#ff5e00"/>
-                                    <stop offset="50%" stop-color="#ffeb00"/>
-                                    <stop offset="75%" stop-color="#1cff00"/>
-                                    <stop offset="100%" stop-color="#00b9ff"/>
-                                </linearGradient>
-                            </defs>
-                            <path
-                              d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
-                            <path
-                              d="M93.9,46.4c9.3,9.5,13.8,17.9,23.5,17.9s17.5-7.8,17.5-17.5s-7.8-17.6-17.5-17.5c-9.7,0.1-13.3,7.2-22.1,17.1 c-8.9,8.8-15.7,17.9-25.4,17.9s-17.5-7.8-17.5-17.5s7.8-17.5,17.5-17.5S86.2,38.6,93.9,46.4z" />
-                        </svg>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="timeline">
-                        <div class="row">
-
-                            <!-- timeline item start - Cisco Networking Academy -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fas fa-award icon"></i>
-                                    <span class="poppins">2021 - 2023</span>
-                                    <h3>Certifications, by Cisco Networking Academy</h3>
-                                    <h4>Cisco Networking Academy</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
-                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
-                                </div>
-                            </div>
-                            <!-- timeline item end -->
-
-                            <!-- timeline item start - DIO -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fas fa-award icon"></i>
-                                    <span class="poppins">2021 - 2023</span>
-                                    <h3>Certifications and Bootcamps, by DIO</h3>
-                                    <h4>Digital Innovation One</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p><br \>
-                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
-
-                                </div>
-                            </div>
-                            <!-- timeline item end -->
-
-                            <!-- timeline item start - Fundação Bradesco -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fas fa-award icon"></i>
-                                    <span class="poppins">2021 - 2023</span>
-                                    <h3>Certifications, by Fundação Bradesco</h3>
-                                    <h4>Fundação Bradesco</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
-                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
-
-                                </div>
-                            </div>
-                            <!-- timeline item end -->
-
-                            <!-- timeline item start - Node Studio -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fas fa-award icon"></i>
-                                    <span class="poppins">2021 - 2023</span>
-                                    <h3>Certifications, by Node Studio</h3>
-                                    <h4>Node Studio Treinamentos</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
-                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
-
-                                </div>
-                            </div>
-                            <!-- timeline item end -->
-
-                            <!-- timeline item start - Alura -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fas fa-award icon"></i>
-                                    <span class="poppins">2021 - 2023</span>
-                                    <h3>Certifications, by Alura</h3>
-                                    <h4>Alura</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
-                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
-
-                                </div>
-                            </div>
-                            <!-- timeline item end -->
-
-                            <!-- timeline item start - Udemy -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fas fa-award icon"></i>
-                                    <span class="poppins">2019 - 2023</span>
-                                    <h3>Certifications, by Udemy</h3>
-                                    <h4>Udemy</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
-                                    <a href="cv.pdf" class="btn-1 outer-shadow hover-in-shadow">View Certified</a>
-
-                                </div>
-                            </div>
-                            <!-- timeline item end -->
-
-                            <!-- timeline item start - UNESA -->
-                            <div class="timeline-item">
-                                <div class="timeline-item-inner outer-shadow">
-                                    <i class="fas fa-graduation-cap icon" title="Graduation"></i>
-                                    <span class="poppins">2020 - 2023</span>
-                                    <h3>Computer Science bachelor's degree</h3>
-                                    <h4>UNESA - Universidade Estácio de Sá</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus eum incidunt atque rerum illo accusamus iste voluptatibus totam, pariatur nihil molestias sunt dignissimos. Distinctio velit veniam ratione excepturi temporibus.</p>
-                                </div>
-                            </div>
-                            <!-- timeline item end -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-</section>
-<!-- ABOUT SECTION END -->
-
-<!----------- PART 3 -------------->
-
-<!-- SERVICES SECTION START -->
-<section class="service-section section" id="services">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h2 data-heading="Services">What i do</h2>
-            </div>
-        </div>
-
-    <div class="row">
-            <!-- 1ST service item start -->
-            <div class="service-item">
-                <div class="service-item-inner outer-shadow">
-                    <div class="icon inner-shadow">
-                        <i class="fa-solid fa-chart-bar"></i>
-                    </div>
-                    <h3>Data Science</h3>
-                    <p class="poppins"></p>
-                </div>
-            </div>
-            <!-- 1ST service item end -->
-
-            <!-- 2ND service item start -->
-            <div class="service-item">
-                <div class="service-item-inner outer-shadow">
-                    <div class="icon inner-shadow">
-                        <i class="fa-solid fa-atom"></i>
-                    </div>
-                    <h3>Full-Stack Development</h3>
-                    <p class="poppins"></p>
-                </div>
-            </div>
-            <!-- 2ND service item end -->
-
-            <!-- 3RD service item start -->
-            <div class="service-item">
-                <div class="service-item-inner outer-shadow">
-                    <div class="icon inner-shadow">
-                        <i class="fas fa-infinity"></i>
-                    </div>
-                    <h3>DevOps Engineering</h3>
-                    <p class="poppins"></p>
-                </div>
-            </div>
-            <!-- 3RD service item end -->
-     </div>
-   </div>
-</section>
-<!-- SERVICES SECTION END -->
-
-<!----------- PART 3 ------------->
-
-<!----------- PART 4 -------------->
-
-<!-- PORTFOLIO SECTION START -->
-<section class="portfolio-section section" id="portfolio">
-<!-- PORTFOLIO ITEMS CONTAINER START -->
-<div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h2 data-heading="portfolio">Latest Works</h2>
-            </div>
-        </div>
-
-        <!-- (FILTER) portfolio filter start -->
-        <div class="row">
-            <div class="portfolio-filter"> <!--<i class="fas fa-filter"></i>-->
-                <span class="filter-item outer-shadow active" data-target="all">all</span>
-                <span class="filter-item" data-target="front-end">Data Science</span>
-                <span class="filter-item" data-target="full-stack">full-stack</span>
-                <span class="filter-item" data-target="devops">DevOps</span>
-            </div>
-        </div>
-        <!-- portfolio filter end -->
-
-       <!-- PORTFOLIO ITEMS START -->
-       <div class="row portfolio-items">
-
-          <!--++++++++ (1ST PORTFOLIO ITEM START) +++++++++-->
-          <div class="portfolio-item" data-category="full-stack">
-    <div class="portfolio-item-inner outer-shadow">
-        <div class="portfolio-item-img">
-            <img src="" alt="Array=[0]" data-screenshots="https://user-images.githubusercontent.com/61624336/151483574-0a65645e-1e81-4d81-9022-1cb27eb37898.png" style="cursor: pointer;">
-            <!-- view project btn-->
-            <span class="view-project poppins">view project</span> <!--&#10140;-->
-        </div>
-        <p class="portfolio-item-title"><b>Clone Multiverse</b></p>
-        <!-- portfolio item details start -->
-        <div class="portfolio-item-details">
-            <div class="row">
-                <div class="description">
-                    <h3>Clone Multiverse:</h3>
-                    <p>It's a project of Clone</p>
-                </div>
-                <div class="info">
-                    <h3>Project info</h3>
-                    <ul>
-                        <li>Date: <span>2022</span></li>
-                        <li>Latest Update: <span>2022</span></li>
-                        <li>For: <span>Improvement skills</span></li>
-                        <li>Tools: <span>Web Stacks, Docker</span></li>
-                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/clone-multiverse" target="_BLANK"><i class="fab fa-github"></i></a></span></li>
-                        <li>URL: <span><a class="outer-shadow hover-in-shadow" href="" target="_blank"><i class="fab fa-github"></i></a></span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- portfolio item details end -->
-    </div>
-          </div>
-          <!--++++++++ (1ST PORTFOLIO ITEM END) +++++++++++-->
-
-          <!--++++++++ (2ND PORTFOLIO ITEM START) +++++++++-->
-          <div class="portfolio-item" data-category="devops">
-    <div class="portfolio-item-inner outer-shadow">
-        <div class="portfolio-item-img">
-            <img src="../../public/images/jpeg/projects/back/aws-cluster-standard-solution/banner.png" alt="Array=[1]" data-screenshots="../../public/images/jpeg/projects/back/aws-cluster-standard-solution/test.png,
-            ../../public/images/jpeg/projects/back/aws-cluster-standard-solution/1.png,
-            https://user-images.githubusercontent.com/7769947/38683859-c499ab8e-3e44-11e8-82e3-e23d2c95d1dd.png,
-            https://user-images.githubusercontent.com/7769947/38683857-c4740a82-3e44-11e8-9559-9d10910e2943.png,
-            https://user-images.githubusercontent.com/7769947/38740916-0469aba4-3f0f-11e8-992a-766665fc24c4.png" style="cursor: pointer;">
-            <!-- view project btn-->
-            <span class="view-project poppins">view project</span> <!--&#10140;-->
-        </div>
-        <p class="portfolio-item-title"><b>Cluster Standard Solution</b></p>
-        <!-- portfolio item details start -->
-        <div class="portfolio-item-details">
-            <div class="row">
-                <div class="description">
-                    <h3>Cluster Standard Solution:</h3>
-                    <p>It's my standard solution for deploying back-end web applications at AWS - Amazon Web Services cloud environment, your back-end web application is dockerized and runs on Amazon ECS Cluster resource together with my infrastructure architecture.</p>
-                    <p>I'll explain to you how that works, first of all, we have two pipelines (whatever the remote repository, in this example i'll choose the GitHub as a remote repository Third-party)</p>
-                    <p>With the AWS CloudFormation Templates in the pipeline to create the change-sets of used services</p>
-                </div>
-                <div class="info">
-                    <h3>Project info</h3>
-                    <ul>
-                        <li>Date: <span>07/12/2021</span></li>
-                        <li>For: <span>Practical test</span></li>
-                        <li>Tools: <span>AWS CloudFormation, Amazon EC2 - Elastic Computer Cloud, Amazon RDS - Relational Database Service, Bastion Host, (AWS ELB - Elastic Load Balancer) ALB - Application Load Balancer, AWS Auto-Scaling, Amazon VPC - Virtual Private Cloud, Amazon ECS - Elastic Container Service, Amazon ECR - Elastic Container Registry, AWS CodePipeline, AWS CodeBuild, Amazon S3 - Simple Storage Service, AWS CloudWatch, AWS SSM - System Manager, ACM - Amazon Certificate Manager, AWS Secrets Manager, GitHub, Docker, Docker Compose, Node.js, PostgreSQL, Express, Axios, pg-promise, body-parser, npm, jest, sql</span></li>
-                        <li>Tools Bonus: <span>Amazon Lambda, Slack and Amazon API Gateway.</span></li>
-                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/infra" target="_blank"><i class="fab fa-github"></i></a></span></li>
-                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/backend-test" target="_blank"><i class="fab fa-github"></i></a></span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- portfolio item details end -->
-    </div>
-          </div>
-          <!--++++++++ (2ND PORTFOLIO ITEM END) +++++++++++-->
-
-          <!--++++++++ (3RD PORTFOLIO ITEM START) +++++++++-->
-          <div class="portfolio-item" data-category="devops">
-    <div class="portfolio-item-inner outer-shadow">
-        <div class="portfolio-item-img">
-            <img src="../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/banner.png" alt="Array=[2]" data-screenshots="../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/1.png,
-            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/2.png,
-            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/3.png,
-            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/4.png,
-            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/5.png,
-            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/7.svg,
-            ../../public/images/jpeg/projects/front/aws-hosting-static-website-solution/8.png" style="cursor: pointer;">
-            <!-- view project btn-->
-            <span class="view-project poppins">view project</span> <!--&#10140;-->
-        </div>
-        <p class="portfolio-item-title"><b>Hosting Static Website Solution</b></p>
-        <!-- portfolio item details start -->
-        <div class="portfolio-item-details">
-            <div class="row">
-                <div class="description">
-                    <h3>Hosting Static Website Solution:</h3>
-                    <p>It's my standard solution for deploying front-end web applications at AWS - Amazon Web Services cloud environment, your front-end web application is a Global CDN Hosting Solution.</p>
-                    <p>I'll explain to you how that works, first of all, we have two pipelines (whatever the remote repository, in this example i'll choose the GitHub as a remote repository Third-party).</p>
-                    <p>With the AWS CloudFormation Templates in the pipeline to create the change-sets of used services</p>
-                </div>
-                <div class="info">
-                    <h3>Project info</h3>
-                    <ul>
-                        <li>Date: <span>2021</span></li>
-                        <li>For: <span>Practical test</span></li>
-                        <li>Tools: <span>AWS CloudFormation, Amazon Route 53, Amazon CloudFront, ACM - Amazon Certificate Manager, Amazon S3 - Simple Storage Service, AWS CodeBuild, AWS CodePipeline and GitHub.</span></li>
-                        <li>Tools Bonus: <span>GitHub Actions and Amazon Lambda.</span></li>
-                        <li>Repository: <span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/infra" target="_blank"><i class="fab fa-github"></i></a></span><span><a class="outer-shadow hover-in-shadow" href="https://github.com/IsaacAlves7/frontend-test" target="_blank"><i class="fab fa-github"></i></a></span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- portfolio item details end -->
-    </div>
-          </div>
-          <!--++++++++ (3RD PORTFOLIO ITEM END) +++++++++++-->
+	</script>
 
 
-       </div>
-       <!-- portfolio items end -->
+	<!--================ Fim do cabeçalho =================-->
 
-</div>
-<!-- PORTFOLIO ITEMS CONTAINER END -->
-</section>
-<!-- PORTFOLIO SECTION END -->
+	<!--================ Início do banner =================-->
+	<section class="home_banner_area" >
+		<div id="home" class="banner_inner" >
+			<div class="container">
+				<div class="row" >
+					<div class="col-lg-7">
+						<div class="banner_content">
+							<h3  class="text-uppercase">Olá</h3>
+							<h1 class="text-uppercase">Eu sou Carlos Eduardo</h1>
+							<h5 class="text-uppercase">Desenhista, Game Developer & Designer</h5>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="home_right_img">
+							<img src="img/banner/home-right.png">
+						</div>
+					</div>
+				</div >
+			</div>
+		</div>
+	</section>
+	<!--================ Fim do banner da home =================-->
 
-<!----------- PART 5 - TESTIMONIAL -------------->
-<div class="testimonial-section section" id="testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h2 data-heading="Testimonial">What People Say</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="testi-box">
-                <div class="testi-slider outer-shadow">
-                    <div class="testi-slider-container">
+	<!--================ Começo "Sobre mim" =================-->
+	<section id="about" class="about_area section_gap">
+		<div class="container">
+			<div class="row justify-content-start align-items-center">
+				<div class="col-lg-5">
+					<div class="about_img">
+						<img class="" src="img/about-us.png" alt="">
+					</div>
+				</div>
 
-                        <!-- CRUD project = React.js + RubyOnRails (C.R.U.D - Create | Read | Update | Delete) -->
+				<div class="offset-lg-1 col-lg-5">
+					<div class="main_title text-left">
+						<h2 >Um Pouco<br>
+							sobre Mim</h2>
+						<p> 
+							Desde criança sempre gostei de desenhar e de usar o computador<br>
+							sempre criava personagens e aprendia cada vez mais a desenhar.
+						</p>
+						<p>
+							Não satisfeito resolvi dar vida aos meus personagens <br>
+							e criar jogos a partir da minha criatividade! <br>
+							Hoje estou feliz com que aprendi e com o que posso continuar aprendendo.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ Fim do "Sobre mim" =================-->
 
-                        <!-- People: Brazilians, Americans, Russians, etc ... -->
+	<!--================ Começo da area de estudo =================-->
+	<section id="contato" class="brand_area section_gap_bottom">
+		<div id="bback" class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/brands/logo01.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/brands/logo02.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/brands/logo03.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/brands/logo04.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/brands/logo05.png" alt="">
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div id="bback" class="offset-lg-2 col-lg-4 col-md-6">
+					<div class="client-info">
+						<div class="d-flex mb-50">
+							<span class="lage">  4</span>
+							<span class="smll" style="color: #fff;"> Anos <br>    de <br>estudo</span>
+						</div>
+						<div class="call-now d-flex">
+							<div>
+								<span class="fa fa-phone"></span>
+							</div>
+							<div class="ml-15">
+								<p>Meu Contato!</p>
+								<h3>(21)98850-5398</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ Fim de area de estudo =================-->
 
-                        <!-- (1st) testi item start -->
-                        <div class="testi-item">
-                            <i class="fas fa-quote-left left"></i>
-                            <i class="fas fa-quote-right right"></i>
-                            <!-- Stars of me - START -->
-                            <!-- Stars of me - END -->
-                            <p>Isaac é um profissional dedicado, sempre atento a detalhes e na resolução de problemas. Com seu conhecimento, não hesita em compartilhar e, é muito didático ao explicar.</p> <!-- Text of people -->
-                            <img src="https://avatars.githubusercontent.com/u/77984420?v=4" alt="João Pedro"> <!-- Photo profile = upload -->
-                            <p><b>João Pedro</b></p> <!--User name-->
-                        </div>
-                        <!-- (1st) testi item end -->
+	<!--================ Area de conhecimentos e infografico =================-->
+	<section id="infografico" class="features_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>Meus últimos 4 anos</h2>
+						<p>
+							A imagem abaixo é um infográfico do meu histórico de aprendizado <br> e experiências no mercado de trabalho.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row feature_inner">
+				<img class="infographic" id="bigpic" usemap="#infomap" src="img/infographic/nov/baseline.png" alt="infográfico dos ultimos 4 anos">
+				<map name="infomap">
+   					 <area class="mapbut" shape="circle" coords="278,194,30" alt="2016" onclick="action1()">
+   					 <area class="mapbut" shape="circle" coords="612,168,30" alt="2017" onclick="action2()">
+   					 <area class="mapbut" shape="circle" coords="364,401,30" alt="2018" onclick="action3()">
+   					 <area class="mapbut" shape="circle" coords="841,333,30" alt="2019" onclick="action4()">
+   					 <area class="mapbut" shape="poly" coords="229,566,183,605,229,638,231,623,263,617,293,600,282,558,257,280,231,585" alt="return" onclick="picture0()">
+				</map>
+			</div>
+		</div>
+	</section>
+	<!--================ Fim da area de conhecimentos =================-->
 
-                        <!-- (2nd) testi item start -->
-                        <!-- <div class="testi-item">
-                            <i class="fas fa-quote-left left"></i>
-                            <i class="fas fa-quote-right right"></i>
-                            <p>Gostei da explicação. Pô muito maneiro mano. Vc vai conseguir coisas grandes na sua vida!! Hoje você me ajuda, amanhã te ajudo e assim vamos caminhando. Explicação bem didática ein, já serve pra virar coach.</p>
-                            <img src="../../public/images/jpeg/testimonial/caio-barboza.jpg" alt="Caio Barboza">
-                            <p><b>Caio Barboza</b></p>
-                        </div> -->
-                        <!-- (2nd) testi item end -->
-                    </div>
-                </div>
-                <div class="testi-slider-nav">
-                    <span class="prev outer-shadow hover-in-shadow"><i class="fas fa-angle-left"></i></span>
-                    <span class="next outer-shadow hover-in-shadow"><i class="fas fa-angle-right"></i></span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!----------- PART 5 ---------------------------->
+	<!--================Começo do Portfolio =================-->
+	<section class="portfolio_area" id="portfolio">
+		<div id="portfolio" class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="main_title text-left">
+						<h2>Meus trabalhos <br>
+							E projetos terminados recentemente</h2>
+					</div>
+				</div>
+			</div>
+			<div class="filters portfolio-filter">
+				<ul>
+					<li class="active" data-filter="*">todos</li>
+					<li data-filter=".latest"> recentes</li>
+					<li data-filter=".popular">digital</li>
+					<li data-filter=".following">papel</li>
+					<li data-filter=".upcoming">trabalhando</li>
+				</ul>
+			</div>
+			<!--
+			col-lg-4 col-md-6 all popular -digital
+			col-lg-4 col-md-6 all latest -recentes
+			col-lg-4 col-md-6 all following -grafite
+			col-lg-4 col-md-6 all upcoming -trabalhando
+			-->
+			<div class="filters-content">
+				<div class="row portfolio-grid justify-content-center">
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img id="imgp" class="img-fluid w-100" src="img/portfolio/1des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/1des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Primeiro desenho</h4>
+								<p>Tucano feito em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/2des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/2des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Treino de Sombreamento</h4>
+								<p>Formas geometrica com sombras<br>
+								feitas em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/3des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/3des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Líquido e vidro</h4>
+								<p>Taça de vinho feita em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/4des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/4des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Textura de Madeira</h4>
+								<p>Balde feito em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/5des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/5des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4><a href="portfolio-details.html">Pelos</a></h4>
+								<p>Lobo em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/6des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/6des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Penas</h4>
+								<p>Falcão em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/7des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/7des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Elementos Isolados 1</h4>
+								<p>Mãos amarradas em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/8des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/8des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Elementos Isolados 2</h4>
+								<p>Pés feitos em grafite</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/9des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/9des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Elementos Isolados 3</h4>
+								<p>Treino de boca feito em grafite</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/10des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/10des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Treino Rosto Humano</h4>
+								<p>Rosto feito em grafite.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 all latest following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/11des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/11des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Rosto Humano</h4>
+								<p>Arnold Schwarzenegger feito em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all latest upcoming following">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/12des.jpeg" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/12des.jpeg" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Rosto Humano 2</h4>
+								<p>Kratos feito em grafite.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/1dig.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/1dig.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Primeiro desenho Digital</h4>
+								<p>Gnomo feito no photoshop</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/2dig.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/2dig.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Teste de Textura</h4>
+								<p>Desenho digital feito no Photoshop</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/3dig.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/3dig.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Penas</h4>
+								<p>Coruja feita no photoshop</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/4dig.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/4dig.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Metal</h4>
+								<p>Robô feito no photoshop.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/5dig.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/5dig.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Madeira</h4>
+								<p>Ent feito no photoshop.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all latest popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/6dig.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/6dig.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Rosto Humano</h4>
+								<p>Rosto humano feito no photoshop.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all latest popular">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/7dig.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/7dig.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Rosto Humano com Liquify</h4>
+								<p>Rosto de um amigo distorcido<br>
+								com o filtro liquify do Photoshop.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/jogo1.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/jogo1.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Projeto Elf INC</h4>
+								<p>Um jogo feito por mim para ser apresentado<br>
+								na feira de ciências da ETERJ.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 all latest">
+						<div class="portfolio_box">
+							<div class="single_portfolio">
+								<img class="img-fluid w-100" src="img/portfolio/jogo2.png" alt="">
+								<div class="overlay"></div>
+								<a href="img/portfolio/jogo2.png" class="img-gal">
+									<div class="icon">
+										<span class="lnr lnr-cross"></span>
+									</div>
+								</a>
+							</div>
+							<div class="short_info">
+								<h4>Projeto Elf INC</h4>
+								<p>Um jogo feito por mim para ser apresentado<br>
+								na feira de ciências da ETERJ.</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		<div style="text-align: center;" class="col-lg-4 col-md-6 videoinc container">
+						<table class="col-lg-4 col-md-6 ttable" style="box-shadow: 10px 20px 5px -15px #000;" align="center">
+							<td>
+									<h3 style="text-shadow: 1px 5px rgba(0,0,0,0.5); ">TRAILER ELF INC</h4>
+								<iframe width="680" height="420" src="img/portfolio/video.mp4" style="border-radius: 5%; border: 0px; box-shadow: 10px 15px 5px -10px rgba(0,0,0,0.5) ;"></iframe>
+									<p style="text-shadow: 1px 5px rgba(0,0,0,0.5);">Trailer demonstrativo do jogo ELF INC</p>
+									<a href="img/portfolio/x64.rar" download>
+										<button class="primary-btn hover d-inline botao">BAIXAR X64</button>
+									</a>
+									<a href="img/portfolio/x86.rar" download>
+										<button class="primary-btn hover d-inline botao">BAIXAR X86</button>
+									</a>
+									<h3 style="text-shadow: 1px 5px rgba(0,0,0,0.5);">TRILHA SONORA DO JOGO</h3>
+								<audio controls="" class="col-lg-5 col-sm-10 col-md-6 audio" src="img/portfolio/music.mp3">
+							</td>
+						</table>
+									
+		</div>
+
+	</section>
+	<!--================Fim do Portfolio =================-->
+
+	<!--================ Cmeço da area de avaliação =================-->
+	<div class="testimonial_area section_gap_bottom">
+		<div class="container">			
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>O que dizem sobre mim?</h2>
+						<p>Pessoas que conheceram meu trabalho</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="testi_slider owl-carousel">
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t1.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Isaac Alves</h4>
+									<p>Muito dahora. </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t2.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Patrick Barroso</h4>
+									<p>Vai fazer minha tatuagem kkkk. </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t3.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Ivancley</h4>
+									<p>Muito bom jogador! </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			
+        		</div>
+			</div>
+		</div>
+	</div>
+	<!--================ Fim da area de avaliação =================-->
+
+	<!--================ Começo das noticias =================-->
+	<section class="newsletter_area">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-12">
+					<div class="subscription_box text-center">
+						<h2 class="text-uppercase text-white">Se atualize em qualquer lugar!</h2>
+						<p class="text-white">
+							Use seu e-mail para receber novidades sempre que for atualizado!
+						</p>
+						<div class="subcribe-form" id="mc_embed_signup">
+							<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
+								<input name="EMAIL" placeholder="Endereço de E-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Endereço de E-mail'" required="" type="email">
+								<div style="position: absolute; left: -5000px;">
+									<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+								</div>
+								<button class="primary-btn hover d-inline">Começe</button>
+								<div class="info"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ Fim das noticias =================-->
+
+	<!--================ Rodapé =================-->
+	<footer class="footer_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="footer_top flex-column">
+						<div class="footer_logo">
+
+							<a href="#">
+								<img src="img/logo.png" alt="">
+							</a>
+							<h4 style="color: white;">Siga-me</h4>
+						</div>
+						<div class="footer_social">
+							<a href="https://www.facebook.com/profile.php?id=100004473662873"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/cemota2001"><i class="fa fa-twitter"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row footer_bottom justify-content-center">
+				<p class="col-lg-8 col-sm-12 footer-text">
+			</div>
+		</div>
+	</footer>
+	<!--================ Fim do rodapé =================-->
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
 
 
-<!-- PART 6 - contact section start -->
-<section class="contact-section section" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h2 data-heading="Contact">Get In Touch</h2>
-            </div>
-        </div>
-        <div class="row">
-            <!-- contact item start -->
-            <div class="contact-item">
-                <a href="tel:+5521995272677" title="My Number">
-                 <div class="contact-item-inner outer-shadow">
-                    <i class="fas fa-phone"></i>
-                    <span>Phone</span>
-                    <p class="poppins">+55 21 99527-2677</p>
-                 </div>
-                </a>
-            </div>
-            <!-- contact item end -->
-            <!-- contact item start -->
-            <div class="contact-item">
-                <a href="mailto:isaac.alves0720@outlook.com" title="My Email">
-                  <div class="contact-item-inner outer-shadow">
-                    <i class="fas fa-envelope"></i>
-                    <span>Email</span>
-                    <p class="poppins">isaac.alves0720@outlook.com</p>
-                  </div>
-                </a>
-            </div>
-            <!-- contact item end -->
-            <!-- contact item start -->
-            <div class="contact-item">
-                <a href="" title="My Address">
-                    <div class="contact-item-inner outer-shadow">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Address</span>
-                    <p class="poppins">Rio de Janeiro, RJ - Brazil</p>
-                    <!-- <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.0004872487043!2d-43.54290640000001!3d-22.8764404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be19f999ae009%3A0xc9c7d4711f72db3f!2sR.%20Geraldo%20Silva%2C%2060%20-%20casa%2001%20-%20Campo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2023092-624!5e0!3m2!1spt-BR!2sbr!4v1659236829536!5m2!1spt-BR!2sbr" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p> -->
-                    </div>
-                </a>
-            </div>
-            <!-- contact item end -->
-        </div>
-        <div class="row">
-            <div class="contact-form">
-                <form action="">
-                    <div class="row">
-                        <div class="w-50">
-                            <div class="input-group outer-shadow hover-in-shadow">
-                                <input type="text" placeholder="Name" class="input-control">
-                            </div>
-                            <div class="input-group outer-shadow hover-in-shadow">
-                                <input type="text" placeholder="Email" class="input-control">
-                            </div>
-                            <div class="input-group outer-shadow hover-in-shadow">
-                                <input type="text" placeholder="Subject" class="input-control">
-                            </div>
-                        </div>
-                        <div class="w-50">
-                            <div class="input-group outer-shadow hover-in-shadow">
-                                <textarea class="input-control" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="submit-btn">
-                            <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
-                        </div>
-                        <!-- <div class="whats-btn">
-                            <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5521998282787" class="btn-1 outer-shadow hover-in-shadow"><i class="fab fa-whatsapp"></i>&nbsp;Let's Type!</a>
-                        </div> -->
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- PART 6 - contact section end -->
-
-<!-- PART 4 - PORTFOLIO POPUP START -->
-<div class="pp portfolio-popup">
-    <div class="pp-details">
-        <div class="pp-details-inner">
-            <div class="pp-title">
-                <h2>Project Category</h2>
-                <p>Category - <span class="pp-project-category">Design</span></p>
-            </div>
-            <div class="pp-project-details">
-                <!-- portfolio item details start -->
-                <div class="portfolio-item-details">
-                    <div class="row">
-                        <div class="description">
-                            <h3>Project Brief:</h3>
-                            <p>Tests.</p>
-                        </div>
-                        <div class="info">
-                            <h3>Project info</h3>
-                            <ul>
-                                <li>Date: <span>2021</span></li>
-                                <li>For: <span>Improvement skills</span></li>
-                                <li>Tools: <span>HTML5 and CSS3</span></li>
-                                <li>URL: <span> <a class="outer-shadow hover-in-shadow" href="https://codepen.io/isaacalves7/pen/jOymeRp" title="CodePen" target="_blank"><i class="fab fa-codepen"></i></a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-            </div>
-        </div>
-    </div>
-
-    <div class="separator"></div>
-
-    <div class="pp-main">
-        <div class="pp-main-inner">
-            <div class="pp-project-details-btn outer-shadow hover-in-shadow">Project Details <i class="fas fa-plus"></i></div>
-            <div class="pp-close outer-shadow hover-in-shadow">&times;</div>
-            <img src="../.." alt="img" class="pp-img outer-shadow">
-            <div class="pp-counter open-sans">1 of 7</div>
-        </div>
-        <div class="pp-loader">
-            <div></div>
-        </div>
-        <!-- pp navigation -->
-        <div class="pp-prev"><i class="fas fa-play"></i></div>
-        <div class="pp-next"><i class="fas fa-play"></i></div>
-    </div>
-</div>
-<!-- PART 4 - PORTFOLIO POPUP END -->
-
-<!----------- PART 4 -------------->
-
-<!-- main -->
-  <!-- article -->
-  <!-- article -->
-  <!-- article -->
-<!-- main -->
-
-<!-- figure -->
-<!-- figure -->
 
 
-<!-- footer -->
-   <!-- social medias -->
-<!-- footer -->
-
-</div>
-<!-- CONTENT ♚ END -->
-
-<!-- SCRIPTS VANILLA JS -->
-<script src="main.js"></script>
 </body>
+
 </html>
