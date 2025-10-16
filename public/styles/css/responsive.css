@@ -38,10 +38,10 @@
         max-width: 350px;
     }
     .effect-1{
-        top: 670px;
+        display: none;
     }
     .effect-2{
-        top: 650px;
+        display: none;
     }
     .effect-3{
         margin-left: -60px;

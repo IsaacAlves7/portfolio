@@ -856,6 +856,7 @@ img{
 .about-section .tab-content.active{
     display: block;
     animation: fadeInTop 0.5s ease;
+    -webkit-animation: fadeInTop 0.5s ease;
 }
 
 .about-section .skills{
@@ -864,8 +865,8 @@ img{
 
 .about-section .skills .skill-item{
     flex: 0 0 50%;
-    max-width: 50%;
-    padding: 0 15px;
+    /* max-width: 50%; */
+    /* padding: 0 15px; */
     margin-bottom: 40px;
 }
 
@@ -875,7 +876,7 @@ img{
     text-transform: capitalize;
     margin: 0 0 10px;
 }
-
+/* 
 .about-section .skills .skill-item .progress{
     height: 20px;
     border-radius: 10px;
@@ -892,7 +893,7 @@ img{
 }
 
 .about-section .skills .skill-item .progress-bar span{
-    /* display: none; */
+    display: none;
     position: absolute;
     right: 0;
     top: 0;
@@ -916,7 +917,8 @@ img{
 .progress-icons:hover{
     cursor: pointer;
     fill: var(--main);
-}
+} 
+*/
 
 .about-section .education,
 .about-section .experience{
@@ -1573,8 +1575,8 @@ img{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-right: -207px;
-    margin-top: 1277px;
+    margin-right: -1697px;
+    margin-top: -107px;
     position: absolute;
 }
 
@@ -1594,7 +1596,7 @@ img{
     animation: oj 4s linear infinite;
     -webkit-animation: oj 4s linear infinite;
     position: absolute;
-    margin-top: 107px;
+    /* margin-top: 107px; */
 }
 
 .svgBox svg:nth-of-type(1){
@@ -2081,4 +2083,63 @@ img{
 .home-section .home-text h1{
     font-size: 10px;
 }
+}
+
+.logos{
+    overflow: hidden;
+    padding: 40px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after{
+    position: absolute;
+    top: 0;
+    width: 250px; height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before{
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), #eff0f4);
+}
+
+.logos:after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), #eff0f4);
+}
+
+.logos:hover .logos-slide{
+    animation-play-state: paused;
+    cursor: grabbing;
+}
+
+.logos-slide{
+    display: inline-block;
+    animation: 5s slide infinite linear;
+    -webkit-animation: 5s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 77px;
+    margin: 0 40px;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+} 
+    100% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+} 
 }
